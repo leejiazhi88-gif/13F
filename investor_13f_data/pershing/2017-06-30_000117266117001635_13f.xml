@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>AUTOMATIC DATA PROCESSING IN</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>053015103</cusip>
+    <value>179394</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>1750867</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>1750867</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>CHIPOTLE MEXICAN GRILL INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>169656105</cusip>
+    <value>1199393</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>2882463</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>2882463</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>HOWARD HUGHES CORP</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>44267D107</cusip>
+    <value>577905</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>4704534</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>4704534</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>MONDELEZ INTL INC</nameOfIssuer>
+    <titleOfClass>CL A</titleOfClass>
+    <cusip>609207105</cusip>
+    <value>626092</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>14496225</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>14496225</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>NOMAD FOODS LTD</nameOfIssuer>
+    <titleOfClass>USD ORD SHS</titleOfClass>
+    <cusip>G6564A105</cusip>
+    <value>470333</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>33333334</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>33333334</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>PLATFORM SPECIALTY PRODS COR</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>72766Q105</cusip>
+    <value>512925</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>40451506</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>40451506</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>RESTAURANT BRANDS INTL INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>76131D103</cusip>
+    <value>2448475</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>39150551</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>39150551</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>

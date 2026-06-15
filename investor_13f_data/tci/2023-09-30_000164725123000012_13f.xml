@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<infoTable>
+		<nameOfIssuer>ALPHABET INC</nameOfIssuer>
+		<titleOfClass>CAP STK CL C</titleOfClass>
+		<cusip>02079K107</cusip>
+		<value>2231832334</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>16927056</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>16927056</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>CANADIAN NATL RY CO</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>136375102</cusip>
+		<value>4427183227</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>40888953</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>40888953</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>CANADIAN PACIFIC KANSAS CITY</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>13646K108</cusip>
+		<value>4151920207</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>55860385</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>55860385</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>FERGUSON PLC NEW</nameOfIssuer>
+		<titleOfClass>SHS</titleOfClass>
+		<cusip>G3421J106</cusip>
+		<value>80326441</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>490669</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>490669</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>GENERAL ELECTRIC CO</nameOfIssuer>
+		<titleOfClass>COM NEW</titleOfClass>
+		<cusip>369604301</cusip>
+		<value>4604415902</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>41650076</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>41650076</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>MOODYS CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>615369105</cusip>
+		<value>3279004445</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>10371017</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>10371017</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>S&amp;P GLOBAL INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>78409V104</cusip>
+		<value>3310107046</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>9058611</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>9058611</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>THERMO FISHER SCIENTIFIC INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>883556102</cusip>
+		<value>1616292933</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>3193182</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>3193182</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>VISA INC</nameOfIssuer>
+		<titleOfClass>COM CL A</titleOfClass>
+		<cusip>92826C839</cusip>
+		<value>3863520982</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>16797187</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>16797187</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+</informationTable>

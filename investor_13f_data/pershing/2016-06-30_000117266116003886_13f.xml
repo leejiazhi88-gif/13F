@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>AIR PRODS &amp; CHEMS INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>009158106</cusip>
+    <value>1079666</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>7601140</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>7601140</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>CANADIAN PAC RY LTD</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>13645T100</cusip>
+    <value>1267408</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>9840890</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>9840890</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>HOWARD HUGHES CORP</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>44267D107</cusip>
+    <value>407896</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>3568017</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>3568017</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>MONDELEZ INTL INC</nameOfIssuer>
+    <titleOfClass>CL A</titleOfClass>
+    <cusip>609207105</cusip>
+    <value>1044101</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>22942225</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>22942225</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>NOMAD HLDGS LTD</nameOfIssuer>
+    <titleOfClass>USD ORD SHS</titleOfClass>
+    <cusip>G6564A105</cusip>
+    <value>266000</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>33333334</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>33333334</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>PLATFORM SPECIALTY PRODS COR</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>72766Q105</cusip>
+    <value>379508</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>42737394</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>42737394</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>RESTAURANT BRANDS INTL INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>76131D103</cusip>
+    <value>1628663</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>39150551</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>39150551</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>VALEANT PHARMACEUTICALS INTL</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>91911K102</cusip>
+    <value>434845</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>21591122</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>21591122</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>ZOETIS INC</nameOfIssuer>
+    <titleOfClass>CL A</titleOfClass>
+    <cusip>98978V103</cusip>
+    <value>1004880</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>21173188</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>21173188</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>

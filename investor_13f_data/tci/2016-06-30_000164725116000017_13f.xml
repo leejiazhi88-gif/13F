@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<infoTable>
+		<nameOfIssuer>AMBAC FINL GROUP INC</nameOfIssuer>
+		<titleOfClass>COM NEW</titleOfClass>
+		<cusip>023139884</cusip>
+		<value>32686</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>1985785</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>1985785</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>CHARTER COMMUNICATIONS INC N</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>16119P108</cusip>
+		<value>2650583</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>11592824</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>11592824</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>COMCAST CORP NEW</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>20030N101</cusip>
+		<value>1896514</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>29092107</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>29092107</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>MOODYS CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>615369105</cusip>
+		<value>9581</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>102239</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>102239</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>YAHOO INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>984332106</cusip>
+		<value>2674519</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>71206573</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>71206573</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>ATLANTICA YIELD PLC</nameOfIssuer>
+		<titleOfClass>SHS</titleOfClass>
+		<cusip>G0751N103</cusip>
+		<value>82172</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>4422584</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>4422584</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+</informationTable>

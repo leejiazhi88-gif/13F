@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<infoTable>
+		<nameOfIssuer>AMBAC FINL GROUP INC</nameOfIssuer>
+		<titleOfClass>COM NEW</titleOfClass>
+		<cusip>023139884</cusip>
+		<value>34453</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>1985785</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>1985785</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>CHARTER COMMUNICATIONS INC N</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>16119P108</cusip>
+		<value>4665309</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>13849812</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>13849812</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>COMCAST CORP NEW</nameOfIssuer>
+		<titleOfClass>CL A</titleOfClass>
+		<cusip>20030N101</cusip>
+		<value>3563723</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>91565333</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>91565333</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>MOODYS CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>615369105</cusip>
+		<value>183486</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>1507939</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>1507939</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>NORFOLK SOUTHERN CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>655844108</cusip>
+		<value>34441</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>283000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>283000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>S&amp;P GLOBAL INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>78409V104</cusip>
+		<value>71642</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>490729</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>490729</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>TIME WARNER INC</nameOfIssuer>
+		<titleOfClass>COM NEW</titleOfClass>
+		<cusip>887317303</cusip>
+		<value>20534</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>204500</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>204500</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>UNION PAC CORP</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>907818108</cusip>
+		<value>21782</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>200000</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>200000</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+	<infoTable>
+		<nameOfIssuer>ALTABA INC</nameOfIssuer>
+		<titleOfClass>COM</titleOfClass>
+		<cusip>021346101</cusip>
+		<value>4681137</value>
+		<shrsOrPrnAmt>
+			<sshPrnamt>85923952</sshPrnamt>
+			<sshPrnamtType>SH</sshPrnamtType>
+		</shrsOrPrnAmt>
+		<investmentDiscretion>SOLE</investmentDiscretion>
+		<votingAuthority>
+			<Sole>85923952</Sole>
+			<Shared>0</Shared>
+			<None>0</None>
+		</votingAuthority>
+	</infoTable>
+</informationTable>

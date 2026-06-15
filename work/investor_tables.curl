@@ -1,0 +1,461 @@
+output = "investor_13f_data/himalaya/2026-03-31_000204358526000013_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000013/13fhciq126.xml"
+
+output = "investor_13f_data/himalaya/2025-12-31_000204358526000011_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000011/13fhciq425.xml"
+
+output = "investor_13f_data/himalaya/2025-09-30_000204358525000015_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000204358525000015/13fhciq325.xml"
+
+output = "investor_13f_data/himalaya/2025-06-30_000204358525000010_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000204358525000010/13fhciq225.xml"
+
+output = "investor_13f_data/himalaya/2025-03-31_000204358525000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000204358525000004/13fhciq125.xml"
+
+output = "investor_13f_data/himalaya/2024-12-31_000170932325000001_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932325000001/13fhciq424.xml"
+
+output = "investor_13f_data/himalaya/2024-09-30_000170932324000009_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932324000009/hci13fq324.xml"
+
+output = "investor_13f_data/himalaya/2024-06-30_000170932324000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932324000005/13f2024q2.xml"
+
+output = "investor_13f_data/himalaya/2024-03-31_000170932324000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932324000004/13fhciq124.xml"
+
+output = "investor_13f_data/himalaya/2023-12-31_000170932324000001_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932324000001/13fhciq423.xml"
+
+output = "investor_13f_data/himalaya/2023-09-30_000170932323000006_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932323000006/13fq32023.xml"
+
+output = "investor_13f_data/himalaya/2023-06-30_000170932323000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932323000005/13fhciq223.xml"
+
+output = "investor_13f_data/himalaya/2023-03-31_000170932323000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932323000004/13fhciq123.xml"
+
+output = "investor_13f_data/himalaya/2022-12-31_000170932323000001_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932323000001/13fhciq422.xml"
+
+output = "investor_13f_data/himalaya/2022-09-30_000170932322000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932322000005/13fq32022.xml"
+
+output = "investor_13f_data/himalaya/2022-06-30_000170932322000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932322000004/13fq22022.xml"
+
+output = "investor_13f_data/himalaya/2022-03-31_000170932322000003_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932322000003/13fq12022.xml"
+
+output = "investor_13f_data/himalaya/2021-12-31_000170932322000001_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932322000001/13fq42021.xml"
+
+output = "investor_13f_data/himalaya/2021-09-30_000170932321000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932321000005/13fq32021.xml"
+
+output = "investor_13f_data/himalaya/2021-06-30_000170932321000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932321000004/13fq22021.xml"
+
+output = "investor_13f_data/himalaya/2021-03-31_000170932321000003_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932321000003/13fq12021.xml"
+
+output = "investor_13f_data/himalaya/2020-12-31_000170932321000001_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932321000001/13fuploadq42020.xml"
+
+output = "investor_13f_data/himalaya/2020-09-30_000170932320000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932320000005/13fuploadq32020.xml"
+
+output = "investor_13f_data/himalaya/2020-06-30_000170932320000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932320000004/Q2202013fHCI.xml"
+
+output = "investor_13f_data/himalaya/2020-03-31_000170932320000003_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932320000003/13fuploadq12020.xml"
+
+output = "investor_13f_data/himalaya/2019-12-31_000170932320000001_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932320000001/tablefor13fq42019.xml"
+
+output = "investor_13f_data/himalaya/2018-09-30_000170932318000007_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932318000007/q2092018finfotable.xml"
+
+output = "investor_13f_data/himalaya/2018-06-30_000170932318000006_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932318000006/q22018table.xml"
+
+output = "investor_13f_data/himalaya/2018-03-31_000170932318000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932318000005/q12018table.xml"
+
+output = "investor_13f_data/himalaya/2017-12-31_000170932318000003_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932318000003/tablefor13fq42017.xml"
+
+output = "investor_13f_data/himalaya/2017-09-30_000170932317000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932317000005/himcaptableq317.xml"
+
+output = "investor_13f_data/himalaya/2017-06-30_000170932317000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932317000004/q21713finfotable.xml"
+
+output = "investor_13f_data/himalaya/2017-03-31_000170932317000003_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932317000003/q11713finfotable.xml"
+
+output = "investor_13f_data/himalaya/2016-12-31_000170932317000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1709323/000170932317000002/q41613finfotable.xml"
+
+output = "investor_13f_data/pershing/2026-03-31_000117266126002336_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266126002336/infotable.xml"
+
+output = "investor_13f_data/pershing/2025-12-31_000117266126001091_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266126001091/infotable.xml"
+
+output = "investor_13f_data/pershing/2025-09-30_000117266125005039_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266125005039/infotable.xml"
+
+output = "investor_13f_data/pershing/2025-06-30_000117266125003509_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266125003509/infotable.xml"
+
+output = "investor_13f_data/pershing/2025-03-31_000117266125002315_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266125002315/infotable.xml"
+
+output = "investor_13f_data/pershing/2024-12-31_000117266125001119_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266125001119/infotable.xml"
+
+output = "investor_13f_data/pershing/2024-09-30_000117266124005218_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266124005218/infotable.xml"
+
+output = "investor_13f_data/pershing/2024-06-30_000117266124003511_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266124003511/infotable.xml"
+
+output = "investor_13f_data/pershing/2024-03-31_000117266124002519_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266124002519/infotable.xml"
+
+output = "investor_13f_data/pershing/2023-12-31_000117266124001556_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266124001556/infotable.xml"
+
+output = "investor_13f_data/pershing/2023-09-30_000117266123004016_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266123004016/infotable.xml"
+
+output = "investor_13f_data/pershing/2023-06-30_000117266123003137_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266123003137/infotable.xml"
+
+output = "investor_13f_data/pershing/2023-03-31_000117266123002303_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266123002303/infotable.xml"
+
+output = "investor_13f_data/pershing/2022-12-31_000117266123000673_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266123000673/infotable.xml"
+
+output = "investor_13f_data/pershing/2022-09-30_000117266122002568_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266122002568/infotable.xml"
+
+output = "investor_13f_data/pershing/2022-06-30_000117266122002007_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266122002007/infotable.xml"
+
+output = "investor_13f_data/pershing/2022-03-31_000117266122001442_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266122001442/infotable.xml"
+
+output = "investor_13f_data/pershing/2021-12-31_000117266122000776_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266122000776/infotable.xml"
+
+output = "investor_13f_data/pershing/2021-09-30_000117266121002355_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266121002355/infotable.xml"
+
+output = "investor_13f_data/pershing/2021-06-30_000117266121001865_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266121001865/infotable.xml"
+
+output = "investor_13f_data/pershing/2021-03-31_000117266121001367_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266121001367/infotable.xml"
+
+output = "investor_13f_data/pershing/2020-12-31_000117266121000814_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266121000814/infotable.xml"
+
+output = "investor_13f_data/pershing/2020-09-30_000117266120002031_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266120002031/infotable.xml"
+
+output = "investor_13f_data/pershing/2020-06-30_000117266120001845_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266120001845/infotable.xml"
+
+output = "investor_13f_data/pershing/2020-03-31_000117266120001409_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266120001409/infotable.xml"
+
+output = "investor_13f_data/pershing/2019-12-31_000117266120000821_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266120000821/infotable.xml"
+
+output = "investor_13f_data/pershing/2019-09-30_000117266119002370_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266119002370/infotable.xml"
+
+output = "investor_13f_data/pershing/2019-06-30_000117266119001860_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266119001860/infotable.xml"
+
+output = "investor_13f_data/pershing/2019-03-31_000117266119001365_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266119001365/infotable.xml"
+
+output = "investor_13f_data/pershing/2018-12-31_000117266119000851_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266119000851/infotable.xml"
+
+output = "investor_13f_data/pershing/2018-09-30_000117266118002178_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266118002178/infotable.xml"
+
+output = "investor_13f_data/pershing/2018-06-30_000117266118001700_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266118001700/infotable.xml"
+
+output = "investor_13f_data/pershing/2018-03-31_000117266118001246_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266118001246/infotable.xml"
+
+output = "investor_13f_data/pershing/2017-12-31_000117266118000802_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266118000802/infotable.xml"
+
+output = "investor_13f_data/pershing/2017-09-30_000117266117002144_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266117002144/infotable.xml"
+
+output = "investor_13f_data/pershing/2017-06-30_000117266117001635_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266117001635/infotable.xml"
+
+output = "investor_13f_data/pershing/2017-03-31_000117266117001220_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266117001220/infotable.xml"
+
+output = "investor_13f_data/pershing/2016-12-31_000117266117000770_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266117000770/infotable.xml"
+
+output = "investor_13f_data/pershing/2016-09-30_000117266116004332_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266116004332/infotable.xml"
+
+output = "investor_13f_data/pershing/2016-06-30_000117266116003886_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1336528/000117266116003886/infotable.xml"
+
+output = "investor_13f_data/tci/2026-03-31_000164725126000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000004/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2025-12-31_000164725126000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000002/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2025-09-30_000164725125000014_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725125000014/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2025-06-30_000164725125000009_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725125000009/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2025-03-31_000164725125000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725125000005/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2024-12-31_000164725125000003_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725125000003/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2024-09-30_000164725124000011_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725124000011/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2024-06-30_000164725124000007_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725124000007/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2024-03-31_000164725124000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725124000004/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2023-12-31_000164725124000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725124000002/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2023-09-30_000164725123000012_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725123000012/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2023-06-30_000164725123000010_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725123000010/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2023-03-31_000164725123000007_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725123000007/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2022-12-31_000164725123000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725123000005/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2022-09-30_000164725122000008_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725122000008/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2022-06-30_000164725122000006_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725122000006/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2022-03-31_000164725122000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725122000004/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2021-12-31_000164725122000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725122000002/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2021-09-30_000164725121000010_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725121000010/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2021-06-30_000164725121000008_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725121000008/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2021-03-31_000164725121000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725121000005/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2020-12-31_000164725121000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725121000002/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2020-09-30_000164725120000008_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725120000008/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2020-06-30_000164725120000006_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725120000006/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2020-03-31_000164725120000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725120000004/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2019-12-31_000164725120000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725120000002/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2019-09-30_000164725119000008_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725119000008/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2019-06-30_000164725119000006_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725119000006/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2019-03-31_000164725119000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725119000004/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2018-12-31_000164725119000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725119000002/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2018-09-30_000164725118000008_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725118000008/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2018-06-30_000164725118000006_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725118000006/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2018-03-31_000164725118000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725118000004/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2017-12-31_000164725118000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725118000002/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2017-09-30_000164725117000012_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725117000012/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2017-06-30_000164725117000009_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725117000009/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2017-03-31_000164725117000007_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725117000007/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2016-12-31_000164725117000004_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725117000004/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2016-09-30_000164725116000020_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725116000020/Form13fInfoTable.xml"
+
+output = "investor_13f_data/tci/2016-06-30_000164725116000017_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1647251/000164725116000017/Form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2026-03-31_000106176826000007_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000106176826000007/BGLLCQ12026.xml"
+
+output = "investor_13f_data/baupost/2025-12-31_000106176826000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000106176826000005/bgllcq42025.xml"
+
+output = "investor_13f_data/baupost/2025-09-30_000106176825000007_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000106176825000007/bgllcq32025.xml"
+
+output = "investor_13f_data/baupost/2025-06-30_000106176825000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000106176825000005/bgllcq22025.xml"
+
+output = "investor_13f_data/baupost/2025-03-31_000106176825000003_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000106176825000003/bgllcq12025.xml"
+
+output = "investor_13f_data/baupost/2024-12-31_000106176825000002_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000106176825000002/bgllcq42024.xml"
+
+output = "investor_13f_data/baupost/2024-09-30_000106176824000005_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000106176824000005/BGLLCQ32024.xml"
+
+output = "investor_13f_data/baupost/2024-06-30_000156761924000363_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761924000363/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2024-03-31_000156761924000317_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761924000317/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2023-12-31_000156761924000192_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761924000192/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2023-09-30_000156761923007709_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761923007709/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2023-06-30_000156761923006910_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761923006910/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2023-03-31_000156761923006061_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761923006061/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2022-12-31_000156761923002543_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761923002543/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2022-09-30_000156761922020125_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761922020125/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2022-06-30_000156761922015853_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761922015853/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2022-03-31_000156761922010529_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761922010529/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2021-12-31_000156761922003626_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761922003626/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2021-09-30_000156761921020056_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761921020056/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2021-06-30_000156761921015518_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761921015518/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2021-03-31_000156761921010187_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761921010187/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2020-12-31_000156761921003545_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761921003545/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2020-09-30_000156761920019585_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761920019585/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2020-06-30_000156761920015100_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761920015100/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2020-03-31_000156761920010141_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761920010141/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2019-12-31_000156761920003359_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761920003359/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2019-09-30_000156761919021196_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761919021196/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2019-06-30_000156761919016587_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761919016587/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2019-03-31_000156761919011239_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761919011239/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2018-12-31_000156761919003764_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761919003764/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2018-09-30_000156761918005816_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761918005816/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2018-06-30_000156761918000616_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000156761918000616/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2018-03-31_000114036118023314_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036118023314/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2017-12-31_000114036118007071_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036118007071/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2017-09-30_000114036117042123_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036117042123/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2017-06-30_000114036117031385_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036117031385/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2017-03-31_000114036117020088_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036117020088/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2016-12-31_000114036117007238_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036117007238/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2016-09-30_000114036116086387_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036116086387/form13fInfoTable.xml"
+
+output = "investor_13f_data/baupost/2016-06-30_000114036116076176_13f.xml"
+url = "https://www.sec.gov/Archives/edgar/data/1061768/000114036116076176/form13fInfoTable.xml"

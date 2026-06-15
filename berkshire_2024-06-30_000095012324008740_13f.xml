@@ -1,0 +1,2035 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:n2="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SEC FORM 13-F Information Table</title>
+<style type="text/css">
+              .FormData {color: blue; background-color: white; font-size: small; font-family: Times, serif;}
+              .FormDataC {color: blue; background-color: white; font-size: small; font-family: Times, serif; text-align: center;}
+              .FormDataR {color: blue; background-color: white; font-size: small; font-family: Times, serif; text-align: right;}
+              .SmallFormData {color: blue; background-color: white; font-size: x-small; font-family: Times, serif;}
+              .FootnoteData {color: green; background-color: white; font-size: x-small; font-family: Times, serif;}
+              .FormNumText {font-size: small; font-weight: bold; font-family: arial, helvetica, sans-serif;}
+              .FormAttention {font-size: medium; font-weight: bold; font-family: helvetica;}
+              .FormText {font-size: small; font-weight: normal; font-family: arial, helvetica, sans-serif; text-align: left;}
+              .FormTextR {font-size: small; font-weight: normal; font-family: arial, helvetica, sans-serif; text-align: right;}
+              .FormTextC {font-size: small; font-weight: normal; font-family: arial, helvetica, sans-serif; text-align: center;}
+              .FormEMText {font-size: medium; font-style: italic; font-weight: normal; font-family: arial, helvetica, sans-serif;}
+              .FormULText {font-size: medium; text-decoration: underline; font-weight: normal; font-family: arial, helvetica, sans-serif;}
+              .SmallFormText {font-size: xx-small; font-family: arial, helvetica, sans-serif; text-align: left;}
+              .SmallFormTextR {font-size: xx-small; font-family: arial, helvetica, sans-serif; text-align: right;}
+              .SmallFormTextC {font-size: xx-small; font-family: arial, helvetica, sans-serif; text-align: center;}
+              .MedSmallFormText {font-size: x-small; font-family: arial, helvetica, sans-serif; text-align: left;}
+              .FormTitle {font-size: medium; font-family: arial, helvetica, sans-serif; font-weight: bold;}
+              .FormTitle1 {font-size: small; font-family: arial, helvetica, sans-serif; font-weight: bold; border-top: black thick solid;}
+              .FormTitle2 {font-size: small; font-family: arial, helvetica, sans-serif; font-weight: bold;}
+              .FormTitle3 {font-size: small; font-family: arial, helvetica, sans-serif; font-weight: bold; padding-top: 2em; padding-bottom: 1em;}
+              .SectionTitle {font-size: small; text-align: left; font-family: arial, helvetica, sans-serif; 
+              		font-weight: bold; border-top: gray thin solid; border-bottom: gray thin solid;}
+              .FormName {font-size: large; font-family: arial, helvetica, sans-serif; font-weight: bold;}
+              .CheckBox {text-align: center; width: 5px; cell-spacing: 0; padding: 0 3 0 3; border-width: thin; border-style: solid;  border-color: black:}
+              body {background: white;}
+      </style>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="4" summary="Form 13F-HR Header Information">
+<tr><td colspan="4" style="border: solid;text-align: center;"><p>The Securities and Exchange Commission has not necessarily reviewed the information in this filing and has not determined if it is accurate and complete.<br>The reader should not assume that the information is accurate and complete.</p></td></tr>
+<tr>
+<td width="10%" colspan="2" valign="top" align="left"></td>
+<td rowspan="1" width="70%" valign="middle" align="center">
+<span class="FormTitle">UNITED STATES SECURITIES AND EXCHANGE COMMISSION</span><br><span class="FormText">Washington, D.C. 20549</span><br><span class="FormTitle">FORM 13F</span><br><br><span class="FormTitle">FORM 13F INFORMATION TABLE</span><br><br>
+</td>
+<td rowspan="1" width="20%" valign="top" align="center"><table width="100%" border="1" summary="OMB Approval Status Box">
+<tr><td class="FormTextC">OMB APPROVAL</td></tr>
+<tr><td><table width="100%" border="0" summary="OMB Interior Box">
+<tr>
+<td class="SmallFormText" colspan="3">OMB Number:</td>
+<td class="SmallFormTextR">3235-0006</td>
+</tr>
+<tr><td class="SmallFormText" colspan="4">Estimated average burden</td></tr>
+<tr>
+<td class="SmallFormText" colspan="3">hours per response:</td>
+<td class="SmallFormTextR">23.8</td>
+</tr>
+</table></td></tr>
+</table></td>
+</tr>
+</table>
+<hr>
+<table width="100%" border="0" cellspacing="0" cellpadding="4" summary="Form 13F-NT Header Information"><tbody>
+<tr>
+<td class="FormTextC">COLUMN 1</td>
+<td class="FormTextC">COLUMN 2</td>
+<td class="FormTextC" colspan="2">COLUMN 3</td>
+<td class="FormTextR">COLUMN 4</td>
+<td class="FormTextC" colspan="3">COLUMN 5</td>
+<td class="FormTextC">COLUMN 6</td>
+<td class="FormTextR">COLUMN 7</td>
+<td class="FormTextC" colspan="3">COLUMN 8</td>
+</tr>
+<tr>
+<td class="FormText"></td>
+<td class="FormText"></td>
+<td class="FormText"></td>
+<td class="FormText"></td>
+<td class="FormTextR">VALUE</td>
+<td class="FormTextR">SHRS OR</td>
+<td class="FormText">SH/</td>
+<td class="FormText">PUT/</td>
+<td class="FormText">INVESTMENT</td>
+<td class="FormTextR">OTHER</td>
+<td class="FormTextC" colspan="3">VOTING AUTHORITY</td>
+</tr>
+<tr>
+<td class="FormText">NAME OF ISSUER</td>
+<td class="FormText">TITLE OF CLASS</td>
+<td class="FormText">CUSIP</td>
+<td class="FormText">FIGI</td>
+<td class="FormTextR">(to the nearest dollar)</td>
+<td class="FormTextR">PRN AMT</td>
+<td class="FormText">PRN</td>
+<td class="FormText">CALL</td>
+<td class="FormText">DISCRETION</td>
+<td class="FormTextR">MANAGER</td>
+<td class="FormTextR">SOLE</td>
+<td class="FormTextR">SHARED</td>
+<td class="FormTextR">NONE</td>
+</tr>
+<tr>
+<td class="FormData">ALLY FINL INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">02005N100</td>
+<td> </td>
+<td class="FormDataR">504,589,507</td>
+<td class="FormDataR">12,719,675</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">12,719,675</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ALLY FINL INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">02005N100</td>
+<td> </td>
+<td class="FormDataR">111,229,721</td>
+<td class="FormDataR">2,803,875</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">2,803,875</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ALLY FINL INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">02005N100</td>
+<td> </td>
+<td class="FormDataR">167,732,694</td>
+<td class="FormDataR">4,228,200</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">4,228,200</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ALLY FINL INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">02005N100</td>
+<td> </td>
+<td class="FormDataR">124,444,790</td>
+<td class="FormDataR">3,137,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">3,137,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ALLY FINL INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">02005N100</td>
+<td> </td>
+<td class="FormDataR">191,854,038</td>
+<td class="FormDataR">4,836,250</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">4,836,250</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ALLY FINL INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">02005N100</td>
+<td> </td>
+<td class="FormDataR">50,579,250</td>
+<td class="FormDataR">1,275,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">1,275,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AMAZON COM INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">023135106</td>
+<td> </td>
+<td class="FormDataR">1,492,663,000</td>
+<td class="FormDataR">7,724,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">7,724,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AMAZON COM INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">023135106</td>
+<td> </td>
+<td class="FormDataR">439,837,000</td>
+<td class="FormDataR">2,276,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">2,276,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AMERICAN EXPRESS CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">025816109</td>
+<td> </td>
+<td class="FormDataR">266,269,070</td>
+<td class="FormDataR">1,149,942</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">1,149,942</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AMERICAN EXPRESS CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">025816109</td>
+<td> </td>
+<td class="FormDataR">34,515,084,970</td>
+<td class="FormDataR">149,061,045</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">149,061,045</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AMERICAN EXPRESS CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">025816109</td>
+<td> </td>
+<td class="FormDataR">324,103,545</td>
+<td class="FormDataR">1,399,713</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,13</td>
+<td class="FormDataR">1,399,713</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">145,749,040</td>
+<td class="FormDataR">692,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">692,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">808,780,800</td>
+<td class="FormDataR">3,840,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">1,2,4,11</td>
+<td class="FormDataR">3,840,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">7,161,080</td>
+<td class="FormDataR">34,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">34,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">10,625,468,967</td>
+<td class="FormDataR">50,448,528</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">50,448,528</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">573,728,880</td>
+<td class="FormDataR">2,724,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,6</td>
+<td class="FormDataR">2,724,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">3,314,359,918</td>
+<td class="FormDataR">15,736,207</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,7</td>
+<td class="FormDataR">15,736,207</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">12,962,184,133</td>
+<td class="FormDataR">61,542,988</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">61,542,988</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">1,517,306,480</td>
+<td class="FormDataR">7,204,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5,9</td>
+<td class="FormDataR">7,204,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">7,023,378,750</td>
+<td class="FormDataR">33,346,210</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">33,346,210</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">45,903,379,392</td>
+<td class="FormDataR">217,944,067</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">217,944,067</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">571,201,440</td>
+<td class="FormDataR">2,712,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,12</td>
+<td class="FormDataR">2,712,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">APPLE INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">037833100</td>
+<td> </td>
+<td class="FormDataR">795,301,120</td>
+<td class="FormDataR">3,776,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,14</td>
+<td class="FormDataR">3,776,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ATLANTA BRAVES HLDGS INC</td>
+<td class="FormData">COM SER C</td>
+<td class="FormData">047726302</td>
+<td> </td>
+<td class="FormDataR">4,268,078</td>
+<td class="FormDataR">108,217</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">108,217</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ATLANTA BRAVES HLDGS INC</td>
+<td class="FormData">COM SER C</td>
+<td class="FormData">047726302</td>
+<td> </td>
+<td class="FormDataR">3,820,434</td>
+<td class="FormDataR">96,867</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">96,867</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ATLANTA BRAVES HLDGS INC</td>
+<td class="FormData">COM SER C</td>
+<td class="FormData">047726302</td>
+<td> </td>
+<td class="FormDataR">588,800</td>
+<td class="FormDataR">14,929</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">14,929</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ATLANTA BRAVES HLDGS INC</td>
+<td class="FormData">COM SER C</td>
+<td class="FormData">047726302</td>
+<td> </td>
+<td class="FormDataR">143,246</td>
+<td class="FormDataR">3,632</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">3,632</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">155,898,400</td>
+<td class="FormDataR">3,920,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">3,920,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">473,263,000</td>
+<td class="FormDataR">11,900,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">1,2,4,11</td>
+<td class="FormDataR">11,900,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">695,279,025</td>
+<td class="FormDataR">17,482,500</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">17,482,500</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">5,567,800,000</td>
+<td class="FormDataR">140,000,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">3,4,5</td>
+<td class="FormDataR">140,000,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">1,251,880,060</td>
+<td class="FormDataR">31,478,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">31,478,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">83,517,000</td>
+<td class="FormDataR">2,100,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,6</td>
+<td class="FormDataR">2,100,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">904,823,178</td>
+<td class="FormDataR">22,751,400</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,7</td>
+<td class="FormDataR">22,751,400</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">12,399,490,600</td>
+<td class="FormDataR">311,780,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">311,780,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">477,200,230</td>
+<td class="FormDataR">11,999,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5,9</td>
+<td class="FormDataR">11,999,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">1,577,874,750</td>
+<td class="FormDataR">39,675,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">39,675,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">15,986,192,036</td>
+<td class="FormDataR">401,966,106</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">401,966,106</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">1,113,560,000</td>
+<td class="FormDataR">28,000,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,12</td>
+<td class="FormDataR">28,000,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">BANK AMER CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">060505104</td>
+<td> </td>
+<td class="FormDataR">389,746,000</td>
+<td class="FormDataR">9,800,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,14</td>
+<td class="FormDataR">9,800,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CAPITAL ONE FINL CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">14040H105</td>
+<td> </td>
+<td class="FormDataR">502,453,049</td>
+<td class="FormDataR">3,629,130</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">3,629,130</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CAPITAL ONE FINL CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">14040H105</td>
+<td> </td>
+<td class="FormDataR">542,764,289</td>
+<td class="FormDataR">3,920,291</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">3,920,291</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CAPITAL ONE FINL CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">14040H105</td>
+<td> </td>
+<td class="FormDataR">295,867,650</td>
+<td class="FormDataR">2,137,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">2,137,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CAPITAL ONE FINL CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">14040H105</td>
+<td> </td>
+<td class="FormDataR">18,362,762</td>
+<td class="FormDataR">132,631</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,12</td>
+<td class="FormDataR">132,631</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHARTER COMMUNICATIONS INC N</td>
+<td class="FormData">CL A</td>
+<td class="FormData">16119P108</td>
+<td> </td>
+<td class="FormDataR">1,144,700,201</td>
+<td class="FormDataR">3,828,941</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">3,828,941</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHEVRON CORP NEW</td>
+<td class="FormData">COM</td>
+<td class="FormData">166764100</td>
+<td> </td>
+<td class="FormDataR">2,747,361,036</td>
+<td class="FormDataR">17,564,001</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">17,564,001</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHEVRON CORP NEW</td>
+<td class="FormData">COM</td>
+<td class="FormData">166764100</td>
+<td> </td>
+<td class="FormDataR">9,604,188</td>
+<td class="FormDataR">61,400</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,6</td>
+<td class="FormDataR">61,400</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHEVRON CORP NEW</td>
+<td class="FormData">COM</td>
+<td class="FormData">166764100</td>
+<td> </td>
+<td class="FormDataR">327,230,640</td>
+<td class="FormDataR">2,092,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,7</td>
+<td class="FormDataR">2,092,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHEVRON CORP NEW</td>
+<td class="FormData">COM</td>
+<td class="FormData">166764100</td>
+<td> </td>
+<td class="FormDataR">5,086,341,675</td>
+<td class="FormDataR">32,517,208</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">32,517,208</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHEVRON CORP NEW</td>
+<td class="FormData">COM</td>
+<td class="FormData">166764100</td>
+<td> </td>
+<td class="FormDataR">447,110,928</td>
+<td class="FormDataR">2,858,400</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5,9</td>
+<td class="FormDataR">2,858,400</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHEVRON CORP NEW</td>
+<td class="FormData">COM</td>
+<td class="FormData">166764100</td>
+<td> </td>
+<td class="FormDataR">9,632,269,301</td>
+<td class="FormDataR">61,579,525</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">61,579,525</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHEVRON CORP NEW</td>
+<td class="FormData">COM</td>
+<td class="FormData">166764100</td>
+<td> </td>
+<td class="FormDataR">303,141,960</td>
+<td class="FormDataR">1,938,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,14</td>
+<td class="FormDataR">1,938,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CITIGROUP INC</td>
+<td class="FormData">COM NEW</td>
+<td class="FormData">172967424</td>
+<td> </td>
+<td class="FormDataR">231,311,700</td>
+<td class="FormDataR">3,645,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">1,2,4,11</td>
+<td class="FormDataR">3,645,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CITIGROUP INC</td>
+<td class="FormData">COM NEW</td>
+<td class="FormData">172967424</td>
+<td> </td>
+<td class="FormDataR">5,647,940</td>
+<td class="FormDataR">89,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,7</td>
+<td class="FormDataR">89,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CITIGROUP INC</td>
+<td class="FormData">COM NEW</td>
+<td class="FormData">172967424</td>
+<td> </td>
+<td class="FormDataR">1,802,582,887</td>
+<td class="FormDataR">28,405,025</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">28,405,025</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CITIGROUP INC</td>
+<td class="FormData">COM NEW</td>
+<td class="FormData">172967424</td>
+<td> </td>
+<td class="FormDataR">360,785,965</td>
+<td class="FormDataR">5,685,250</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5,9</td>
+<td class="FormDataR">5,685,250</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CITIGROUP INC</td>
+<td class="FormData">COM NEW</td>
+<td class="FormData">172967424</td>
+<td> </td>
+<td class="FormDataR">914,301,346</td>
+<td class="FormDataR">14,407,522</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">14,407,522</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CITIGROUP INC</td>
+<td class="FormData">COM NEW</td>
+<td class="FormData">172967424</td>
+<td> </td>
+<td class="FormDataR">191,204,980</td>
+<td class="FormDataR">3,013,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,14</td>
+<td class="FormDataR">3,013,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">50,920,000</td>
+<td class="FormDataR">800,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">800,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">23,644,129</td>
+<td class="FormDataR">371,471</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">1,2,4,11</td>
+<td class="FormDataR">371,471</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">5,410,250</td>
+<td class="FormDataR">85,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">85,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">5,110,025,680</td>
+<td class="FormDataR">80,283,200</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">80,283,200</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">116,097,600</td>
+<td class="FormDataR">1,824,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,6</td>
+<td class="FormDataR">1,824,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">917,272,880</td>
+<td class="FormDataR">14,411,200</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">14,411,200</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">954,138,960</td>
+<td class="FormDataR">14,990,400</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">14,990,400</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">17,995,301,701</td>
+<td class="FormDataR">282,722,729</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">282,722,729</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">226,084,800</td>
+<td class="FormDataR">3,552,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,12</td>
+<td class="FormDataR">3,552,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">COCA COLA CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">191216100</td>
+<td> </td>
+<td class="FormDataR">61,104,000</td>
+<td class="FormDataR">960,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,13</td>
+<td class="FormDataR">960,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">DAVITA INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">23918K108</td>
+<td> </td>
+<td class="FormDataR">2,436,349,934</td>
+<td class="FormDataR">17,582,088</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">17,582,088</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">DAVITA INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">23918K108</td>
+<td> </td>
+<td class="FormDataR">2,565,413,201</td>
+<td class="FormDataR">18,513,482</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">18,513,482</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">DIAGEO P L C</td>
+<td class="FormData">SPON ADR NEW</td>
+<td class="FormData">25243Q205</td>
+<td> </td>
+<td class="FormDataR">28,714,720</td>
+<td class="FormDataR">227,750</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,7</td>
+<td class="FormDataR">227,750</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">FLOOR &amp; DECOR HLDGS INC</td>
+<td class="FormData">CL A</td>
+<td class="FormData">339750101</td>
+<td> </td>
+<td class="FormDataR">129,518,307</td>
+<td class="FormDataR">1,302,870</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">1,302,870</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">FLOOR &amp; DECOR HLDGS INC</td>
+<td class="FormData">CL A</td>
+<td class="FormData">339750101</td>
+<td> </td>
+<td class="FormDataR">115,902,119</td>
+<td class="FormDataR">1,165,900</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">1,165,900</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">FLOOR &amp; DECOR HLDGS INC</td>
+<td class="FormData">CL A</td>
+<td class="FormData">339750101</td>
+<td> </td>
+<td class="FormDataR">103,485,810</td>
+<td class="FormDataR">1,041,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">1,041,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">FLOOR &amp; DECOR HLDGS INC</td>
+<td class="FormData">CL A</td>
+<td class="FormData">339750101</td>
+<td> </td>
+<td class="FormDataR">46,533,821</td>
+<td class="FormDataR">468,100</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">468,100</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">HEICO CORP NEW</td>
+<td class="FormData">CL A</td>
+<td class="FormData">422806208</td>
+<td> </td>
+<td class="FormDataR">185,373,840</td>
+<td class="FormDataR">1,044,242</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">1,044,242</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">JEFFERIES FINL GROUP INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">47233W109</td>
+<td> </td>
+<td class="FormDataR">21,573,846</td>
+<td class="FormDataR">433,558</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">433,558</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">KRAFT HEINZ CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">500754106</td>
+<td> </td>
+<td class="FormDataR">10,491,953,836</td>
+<td class="FormDataR">325,634,818</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">325,634,818</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">KROGER CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">501044101</td>
+<td> </td>
+<td class="FormDataR">829,192,004</td>
+<td class="FormDataR">16,607,090</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">16,607,090</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">KROGER CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">501044101</td>
+<td> </td>
+<td class="FormDataR">38,372,753</td>
+<td class="FormDataR">768,531</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">1,2,4,11</td>
+<td class="FormDataR">768,531</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">KROGER CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">501044101</td>
+<td> </td>
+<td class="FormDataR">267,980,252</td>
+<td class="FormDataR">5,367,119</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">5,367,119</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">KROGER CO</td>
+<td class="FormData">COM</td>
+<td class="FormData">501044101</td>
+<td> </td>
+<td class="FormDataR">1,360,954,992</td>
+<td class="FormDataR">27,257,260</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">27,257,260</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LENNAR CORP</td>
+<td class="FormData">CL B</td>
+<td class="FormData">526057302</td>
+<td> </td>
+<td class="FormDataR">21,273,114</td>
+<td class="FormDataR">152,572</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">152,572</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S C</td>
+<td class="FormData">531229722</td>
+<td> </td>
+<td class="FormDataR">139,286,803</td>
+<td class="FormDataR">3,639,582</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">3,639,582</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S C</td>
+<td class="FormData">531229722</td>
+<td> </td>
+<td class="FormDataR">5,478,618</td>
+<td class="FormDataR">143,157</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">143,157</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S C</td>
+<td class="FormData">531229722</td>
+<td> </td>
+<td class="FormDataR">211,619,552</td>
+<td class="FormDataR">5,529,646</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">5,529,646</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S C</td>
+<td class="FormData">531229722</td>
+<td> </td>
+<td class="FormDataR">6,223,467</td>
+<td class="FormDataR">162,620</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">162,620</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S C</td>
+<td class="FormData">531229722</td>
+<td> </td>
+<td class="FormDataR">55,210,445</td>
+<td class="FormDataR">1,442,656</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">1,442,656</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S A</td>
+<td class="FormData">531229748</td>
+<td> </td>
+<td class="FormDataR">37,948,792</td>
+<td class="FormDataR">1,011,698</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">1,011,698</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S A</td>
+<td class="FormData">531229748</td>
+<td> </td>
+<td class="FormDataR">123,211,910</td>
+<td class="FormDataR">3,284,775</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">3,284,775</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S A</td>
+<td class="FormData">531229748</td>
+<td> </td>
+<td class="FormDataR">8,752,846</td>
+<td class="FormDataR">233,347</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">233,347</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY LIV S A</td>
+<td class="FormData">531229748</td>
+<td> </td>
+<td class="FormDataR">17,133,368</td>
+<td class="FormDataR">456,768</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">456,768</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S C</td>
+<td class="FormData">531229789</td>
+<td> </td>
+<td class="FormDataR">327,487,616</td>
+<td class="FormDataR">14,778,322</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">14,778,322</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S C</td>
+<td class="FormData">531229789</td>
+<td> </td>
+<td class="FormDataR">1,081,960,648</td>
+<td class="FormDataR">48,824,939</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">48,824,939</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S C</td>
+<td class="FormData">531229789</td>
+<td> </td>
+<td class="FormDataR">14,414,637</td>
+<td class="FormDataR">650,480</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">650,480</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S C</td>
+<td class="FormData">531229789</td>
+<td> </td>
+<td class="FormDataR">127,401,297</td>
+<td class="FormDataR">5,749,156</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">5,749,156</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S A</td>
+<td class="FormData">531229813</td>
+<td> </td>
+<td class="FormDataR">95,424,792</td>
+<td class="FormDataR">4,308,117</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">4,308,117</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S A</td>
+<td class="FormData">531229813</td>
+<td> </td>
+<td class="FormDataR">622,717,104</td>
+<td class="FormDataR">28,113,639</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">28,113,639</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S A</td>
+<td class="FormData">531229813</td>
+<td> </td>
+<td class="FormDataR">20,674,611</td>
+<td class="FormDataR">933,391</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,10</td>
+<td class="FormDataR">933,391</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM LBTY SRM S A</td>
+<td class="FormData">531229813</td>
+<td> </td>
+<td class="FormDataR">40,469,645</td>
+<td class="FormDataR">1,827,072</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">1,827,072</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM SER C FRMLA</td>
+<td class="FormData">531229854</td>
+<td> </td>
+<td class="FormDataR">268,446,683</td>
+<td class="FormDataR">3,736,730</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">3,736,730</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM SER C FRMLA</td>
+<td class="FormData">531229854</td>
+<td> </td>
+<td class="FormDataR">240,290,432</td>
+<td class="FormDataR">3,344,800</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">3,344,800</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM SER C FRMLA</td>
+<td class="FormData">531229854</td>
+<td> </td>
+<td class="FormDataR">37,033,592</td>
+<td class="FormDataR">515,501</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">515,501</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY MEDIA CORP DEL</td>
+<td class="FormData">COM SER C FRMLA</td>
+<td class="FormData">531229854</td>
+<td> </td>
+<td class="FormDataR">9,010,173</td>
+<td class="FormDataR">125,420</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">125,420</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LOUISIANA PAC CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">546347105</td>
+<td> </td>
+<td class="FormDataR">133,365,050</td>
+<td class="FormDataR">1,619,884</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">1,619,884</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LOUISIANA PAC CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">546347105</td>
+<td> </td>
+<td class="FormDataR">357,716,358</td>
+<td class="FormDataR">4,344,909</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">4,344,909</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">MASTERCARD INC</td>
+<td class="FormData">CL A</td>
+<td class="FormData">57636Q104</td>
+<td> </td>
+<td class="FormDataR">1,758,749,632</td>
+<td class="FormDataR">3,986,648</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">3,986,648</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">MOODYS CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">615369105</td>
+<td> </td>
+<td class="FormDataR">30,349,053</td>
+<td class="FormDataR">72,100</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">1,2,4,11</td>
+<td class="FormDataR">72,100</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">MOODYS CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">615369105</td>
+<td> </td>
+<td class="FormDataR">5,040,185,513</td>
+<td class="FormDataR">11,973,928</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">11,973,928</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">MOODYS CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">615369105</td>
+<td> </td>
+<td class="FormDataR">5,313,715,088</td>
+<td class="FormDataR">12,623,750</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">12,623,750</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">NVR INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">62944T105</td>
+<td> </td>
+<td class="FormDataR">84,324,079</td>
+<td class="FormDataR">11,112</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">11,112</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">OCCIDENTAL PETE CORP</td>
+<td class="FormData">COM</td>
+<td class="FormData">674599105</td>
+<td> </td>
+<td class="FormDataR">16,090,394,458</td>
+<td class="FormDataR">255,281,524</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">255,281,524</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">SPDR S&amp;P 500 ETF TR</td>
+<td class="FormData">TR UNIT</td>
+<td class="FormData">78462F103</td>
+<td> </td>
+<td class="FormDataR">21,442,268</td>
+<td class="FormDataR">39,400</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">39,400</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">SIRIUS XM HOLDINGS INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">82968B103</td>
+<td> </td>
+<td class="FormDataR">376,045,343</td>
+<td class="FormDataR">132,878,213</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">132,878,213</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">T-MOBILE US INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">872590104</td>
+<td> </td>
+<td class="FormDataR">823,112,960</td>
+<td class="FormDataR">4,672,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">4,672,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ULTA BEAUTY INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">90384S303</td>
+<td> </td>
+<td class="FormDataR">217,285,712</td>
+<td class="FormDataR">563,106</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">563,106</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">ULTA BEAUTY INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">90384S303</td>
+<td> </td>
+<td class="FormDataR">49,005,490</td>
+<td class="FormDataR">127,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">127,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">VANGUARD INDEX FDS</td>
+<td class="FormData">S&amp;P 500 ETF SHS</td>
+<td class="FormData">922908363</td>
+<td> </td>
+<td class="FormDataR">21,505,590</td>
+<td class="FormDataR">43,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">43,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">VERISIGN INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">92343E102</td>
+<td> </td>
+<td class="FormDataR">873,021,470</td>
+<td class="FormDataR">4,910,132</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">4,910,132</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">VERISIGN INC</td>
+<td class="FormData">COM</td>
+<td class="FormData">92343E102</td>
+<td> </td>
+<td class="FormDataR">1,405,594,522</td>
+<td class="FormDataR">7,905,481</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">7,905,481</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">VISA INC</td>
+<td class="FormData">COM CL A</td>
+<td class="FormData">92826C839</td>
+<td> </td>
+<td class="FormDataR">2,177,834,326</td>
+<td class="FormDataR">8,297,460</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">8,297,460</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AON PLC</td>
+<td class="FormData">SHS CL A</td>
+<td class="FormData">G0403H108</td>
+<td> </td>
+<td class="FormDataR">676,408,320</td>
+<td class="FormDataR">2,304,000</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">2,304,000</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AON PLC</td>
+<td class="FormData">SHS CL A</td>
+<td class="FormData">G0403H108</td>
+<td> </td>
+<td class="FormDataR">12,860,565</td>
+<td class="FormDataR">43,806</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">2,4,11</td>
+<td class="FormDataR">43,806</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">AON PLC</td>
+<td class="FormData">SHS CL A</td>
+<td class="FormData">G0403H108</td>
+<td> </td>
+<td class="FormDataR">514,409,115</td>
+<td class="FormDataR">1,752,194</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">1,752,194</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">NU HLDGS LTD</td>
+<td class="FormData">ORD SHS CL A</td>
+<td class="FormData">G6683N103</td>
+<td> </td>
+<td class="FormDataR">1,380,761,126</td>
+<td class="FormDataR">107,118,784</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,5</td>
+<td class="FormDataR">107,118,784</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY LATIN AMERICA LTD</td>
+<td class="FormData">COM CL A</td>
+<td class="FormData">G9001E102</td>
+<td> </td>
+<td class="FormDataR">9,663,883</td>
+<td class="FormDataR">1,005,607</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4</td>
+<td class="FormDataR">1,005,607</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY LATIN AMERICA LTD</td>
+<td class="FormData">COM CL A</td>
+<td class="FormData">G9001E102</td>
+<td> </td>
+<td class="FormDataR">15,618,028</td>
+<td class="FormDataR">1,625,185</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">1,625,185</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">LIBERTY LATIN AMERICA LTD</td>
+<td class="FormData">COM CL C</td>
+<td class="FormData">G9001E128</td>
+<td> </td>
+<td class="FormDataR">12,352,272</td>
+<td class="FormDataR">1,284,020</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,8,11</td>
+<td class="FormDataR">1,284,020</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+<tr>
+<td class="FormData">CHUBB LIMITED</td>
+<td class="FormData">COM</td>
+<td class="FormData">H1467J104</td>
+<td> </td>
+<td class="FormDataR">6,895,777,623</td>
+<td class="FormDataR">27,033,784</td>
+<td class="FormData">SH</td>
+<td> </td>
+<td class="FormData">DFND</td>
+<td class="FormData">4,11</td>
+<td class="FormDataR">27,033,784</td>
+<td class="FormDataR">0</td>
+<td class="FormDataR">0</td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,1464 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berkshire Hathaway 13F 研究 | 2026Q1</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --surface: #ffffff;
+      --surface-2: #f0f3f5;
+      --text: #18212b;
+      --muted: #66727f;
+      --line: #dce2e8;
+      --green: #117b5b;
+      --green-soft: #dff3eb;
+      --red: #b33a3a;
+      --red-soft: #f8e6e3;
+      --blue: #2764a8;
+      --blue-soft: #e4edf8;
+      --amber: #9a6710;
+      --amber-soft: #f6ecd8;
+      --ink: #0f1720;
+      --shadow: 0 14px 36px rgba(20, 32, 46, 0.08);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+    }
+
+    a { color: inherit; }
+
+    .page {
+      min-height: 100vh;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(247, 248, 250, 0.92);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(14px);
+    }
+
+    .topbar-inner {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--ink);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      font-size: 13px;
+      flex: 0 0 auto;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.25;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .period-select {
+      margin-top: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .period-select select {
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text);
+      font: inherit;
+      font-size: 12px;
+      padding: 6px 28px 6px 9px;
+      line-height: 1;
+      background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+      background-position: calc(100% - 14px) 50%, calc(100% - 9px) 50%;
+      background-size: 5px 5px, 5px 5px;
+      background-repeat: no-repeat;
+    }
+
+    .nav {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav a,
+    .source-link {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      background: var(--surface);
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1;
+    }
+
+    .nav a:hover,
+    .source-link:hover {
+      color: var(--text);
+      border-color: #b9c5d1;
+    }
+
+    main {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(360px, 0.8fr);
+      gap: 18px;
+      align-items: stretch;
+      min-height: 420px;
+    }
+
+    .hero-copy {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 26px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      display: inline-block;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(34px, 4vw, 58px);
+      line-height: 1;
+      max-width: 760px;
+      color: var(--ink);
+      letter-spacing: 0;
+    }
+
+    .lead {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+      max-width: 740px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .button {
+      border: 1px solid var(--ink);
+      background: var(--ink);
+      color: white;
+      border-radius: 8px;
+      padding: 10px 13px;
+      font-size: 14px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      line-height: 1;
+    }
+
+    .button.secondary {
+      background: white;
+      color: var(--ink);
+      border-color: var(--line);
+    }
+
+    .overview {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .metric {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      min-height: 112px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .metric .label {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .metric .value {
+      font-size: 28px;
+      color: var(--ink);
+      font-weight: 760;
+      line-height: 1.1;
+    }
+
+    .metric .note {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    section {
+      margin-top: 18px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-end;
+      margin: 0 0 12px;
+    }
+
+    .section-head h3 {
+      margin: 0;
+      font-size: 20px;
+      color: var(--ink);
+    }
+
+    .section-head p {
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+      gap: 18px;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 18px;
+      min-width: 0;
+    }
+
+    .chart-wrap {
+      display: grid;
+      grid-template-columns: 230px minmax(0, 1fr);
+      gap: 18px;
+      align-items: center;
+      min-height: 300px;
+    }
+
+    .donut {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      position: relative;
+      background: conic-gradient(#111 0deg, #ddd 0deg);
+    }
+
+    .donut::after {
+      content: "";
+      position: absolute;
+      inset: 38px;
+      border-radius: 50%;
+      background: var(--surface);
+      border: 1px solid var(--line);
+    }
+
+    .donut-center {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .donut-center strong {
+      display: block;
+      font-size: 30px;
+      color: var(--ink);
+    }
+
+    .donut-center span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .legend {
+      display: grid;
+      gap: 9px;
+    }
+
+    .legend-row {
+      display: grid;
+      grid-template-columns: 12px minmax(0, 1fr) 58px;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+    }
+
+    .swatch {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+
+    .legend-name {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .legend-value {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      text-align: right;
+    }
+
+    .bars {
+      display: grid;
+      gap: 11px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(190px, 0.9fr) minmax(140px, 1fr) 112px;
+      gap: 10px;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    .bar-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--text);
+    }
+
+    .bar-track {
+      height: 10px;
+      border-radius: 999px;
+      background: var(--surface-2);
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: var(--blue);
+      min-width: 2px;
+    }
+
+    .bar-value {
+      color: var(--muted);
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .has-tip {
+      position: relative;
+      overflow: visible;
+    }
+
+    .has-tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      left: 0;
+      bottom: calc(100% + 8px);
+      z-index: 30;
+      width: max-content;
+      max-width: min(420px, 80vw);
+      background: rgba(15, 23, 32, 0.96);
+      color: white;
+      border-radius: 8px;
+      padding: 8px 10px;
+      box-shadow: 0 12px 28px rgba(15, 23, 32, 0.22);
+      font-size: 12px;
+      line-height: 1.4;
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(4px);
+      transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease;
+    }
+
+    .has-tip:hover::after {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .trend-panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .trend-panel + .trend-panel {
+      margin-top: 18px;
+    }
+
+    .trend-top {
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .trend-top p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .trend-chart-wrap {
+      overflow-x: auto;
+      padding: 10px 18px 0;
+    }
+
+    .trend-chart {
+      width: 100%;
+      min-width: 900px;
+      height: 390px;
+      display: block;
+    }
+
+    .trend-axis {
+      stroke: var(--line);
+      stroke-width: 1;
+    }
+
+    .trend-label {
+      fill: var(--muted);
+      font-size: 12px;
+    }
+
+    .trend-line {
+      fill: none;
+      stroke-width: 2.5;
+    }
+
+    .trend-dot {
+      stroke: var(--surface);
+      stroke-width: 1.5;
+    }
+
+    .trend-hit {
+      fill: transparent;
+      cursor: crosshair;
+    }
+
+    .trend-hit:hover + .trend-dot {
+      stroke: var(--ink);
+      stroke-width: 2.5;
+    }
+
+    .trend-tooltip-box {
+      background: rgba(15, 23, 32, 0.96);
+      color: #ffffff;
+      border-radius: 8px;
+      box-sizing: border-box;
+      height: 100%;
+      padding: 10px 12px;
+      box-shadow: 0 12px 28px rgba(15, 23, 32, 0.22);
+      font-size: 12px;
+      line-height: 1.45;
+      min-width: 176px;
+      pointer-events: none;
+      width: 100%;
+    }
+
+    .trend-tooltip-box strong {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 4px;
+      overflow-wrap: anywhere;
+    }
+
+    .trend-tooltip-box span {
+      display: block;
+      color: rgba(255, 255, 255, 0.78);
+      font-variant-numeric: tabular-nums;
+      overflow-wrap: anywhere;
+      white-space: normal;
+    }
+
+    .trend-point:hover .trend-tooltip {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .trend-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      padding: 12px 18px 16px;
+      border-top: 1px solid var(--line);
+    }
+
+    .trend-legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .chart-narrative {
+      border-top: 1px solid var(--line);
+      padding: 14px 18px 18px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      background: #fbfcfd;
+    }
+
+    .narrative-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      padding: 13px;
+      min-height: 116px;
+    }
+
+    .narrative-card b {
+      display: block;
+      color: var(--ink);
+      font-size: 13px;
+      margin-bottom: 6px;
+    }
+
+    .narrative-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.58;
+    }
+
+    .tabs {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      padding: 3px;
+      gap: 3px;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      padding: 8px 10px;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .tab.active {
+      background: var(--ink);
+      color: white;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 650;
+      background: #fbfcfd;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    tbody tr:last-child td { border-bottom: 0; }
+
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 12px;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .tag.add { color: var(--green); background: var(--green-soft); }
+    .tag.cut { color: var(--red); background: var(--red-soft); }
+    .tag.keep { color: var(--blue); background: var(--blue-soft); }
+    .tag.exit { color: var(--amber); background: var(--amber-soft); }
+
+    .signal-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .signal {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      min-height: 162px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .signal strong {
+      font-size: 15px;
+      color: var(--ink);
+    }
+
+    .signal p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .footer-note {
+      margin: 22px 0 4px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .signal-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 720px) {
+      main {
+        padding: 16px;
+      }
+
+      .topbar-inner {
+        padding: 12px 16px;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .brand h1 {
+        white-space: normal;
+      }
+
+      .hero-copy {
+        padding: 20px;
+      }
+
+      .overview {
+        grid-template-columns: 1fr;
+      }
+
+      h2 {
+        font-size: 34px;
+      }
+
+      .chart-wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .donut {
+        margin: 0 auto;
+      }
+
+      .bar-row {
+        grid-template-columns: minmax(120px, 0.9fr) minmax(90px, 1fr) 92px;
+      }
+
+      .section-head {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .signal-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .chart-narrative {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <div class="mark">13F</div>
+          <div>
+            <h1>Berkshire Hathaway 13F 研究</h1>
+            <div class="period-select">
+              <label for="period-select">选择时期</label>
+              <select id="period-select" aria-label="选择 13F 报告期"></select>
+              <span id="period-meta">报告期 -- · 提交日 --</span>
+            </div>
+          </div>
+        </div>
+        <nav class="nav" aria-label="页面导航">
+          <a href="investors.html">大佬一览</a>
+          <a href="#portfolio">组合</a>
+          <a href="#trend">趋势</a>
+          <a href="#changes">变化</a>
+          <a href="#signals">信号</a>
+          <a href="https://www.sec.gov/Archives/edgar/data/1067983/000119312526226661/0001193125-26-226661-index.html" target="_blank" rel="noreferrer">SEC 原文</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <div>
+            <div class="eyebrow"><span class="dot"></span> Berkshire Hathaway Inc. · Form 13F-HR</div>
+            <h2 id="page-title">巴菲特持仓的季度快照</h2>
+            <p class="lead">基于 SEC 原始 13F 信息表聚合，展示伯克希尔 2026Q1 美股持仓结构、环比增减仓和下一季度需要跟踪的信号。13F 是延迟披露，不覆盖现金、债券、私有业务和非美上市资产。</p>
+          </div>
+          <div class="hero-actions">
+            <a class="button" href="#changes">查看增减仓</a>
+            <a class="button secondary" href="berkshire_2026q1_holdings.csv">下载持仓 CSV</a>
+            <a class="button secondary" href="berkshire_13f_research_2026q1.md">研究稿</a>
+          </div>
+        </div>
+        <div class="overview" id="overview" aria-label="核心指标"></div>
+      </section>
+
+      <section id="portfolio">
+        <div class="section-head">
+          <div>
+            <h3>组合结构</h3>
+            <p>按 13F 市值排序，前十大持仓占比极高，组合仍然是典型的集中型结构。</p>
+          </div>
+          <a class="source-link" href="berkshire_2026q1_vs_2025q4_changes.csv">环比变化 CSV</a>
+        </div>
+        <div class="grid-2">
+          <div class="panel">
+            <div class="chart-wrap">
+              <div class="donut" id="donut">
+                <div class="donut-center"><div><strong id="top10-weight">--</strong><span>前十大权重</span></div></div>
+              </div>
+              <div class="legend" id="legend"></div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="bars" id="bars"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="trend">
+        <div class="trend-panel category-trend">
+          <div class="trend-top">
+            <div>
+              <h3 style="margin:0;">整体持仓分类一览</h3>
+              <p>按全部 13F 持仓聚合为大类，观察组合从科技平台向金融、能源、消费等方向的权重变化。</p>
+            </div>
+            <div class="tabs" role="tablist" aria-label="分类趋势图视图切换">
+              <button class="tab active category-mode" data-mode="weight" type="button">权重 %</button>
+              <button class="tab category-mode" data-mode="value" type="button">市值 亿美元</button>
+            </div>
+          </div>
+          <div class="trend-chart-wrap">
+            <svg class="trend-chart" id="category-trend-chart" role="img" aria-label="整体持仓分类多季度趋势图"></svg>
+          </div>
+          <div class="trend-legend" id="category-trend-legend"></div>
+        </div>
+
+        <div class="trend-panel">
+          <div class="trend-top">
+            <div>
+              <h3 style="margin:0;">核心持仓权重趋势</h3>
+              <p>选取最近 12 个季度中进入前十大频率最高的头部公司；支持按权重或市值查看。</p>
+            </div>
+            <div class="tabs" role="tablist" aria-label="趋势图视图切换">
+              <button class="tab active trend-mode" data-mode="weight" type="button">权重 %</button>
+              <button class="tab trend-mode" data-mode="value" type="button">市值 亿美元</button>
+            </div>
+          </div>
+          <div class="trend-chart-wrap">
+            <svg class="trend-chart" id="trend-chart" role="img" aria-label="核心持仓多季度趋势图"></svg>
+          </div>
+          <div class="trend-legend" id="trend-legend"></div>
+          <div class="chart-narrative" id="trend-narrative"></div>
+        </div>
+      </section>
+
+      <section id="changes">
+        <div class="section-head">
+          <div>
+            <h3>交易变化</h3>
+            <p>环比基准为 2025Q4；按股数变化分类，金额列为季度末市值差异，不等同于交易金额。</p>
+          </div>
+          <div class="tabs" role="tablist" aria-label="交易变化筛选">
+            <button class="tab active" data-filter="focus" type="button">重点</button>
+            <button class="tab" data-filter="add" type="button">新进/增仓</button>
+            <button class="tab" data-filter="cut" type="button">减仓</button>
+            <button class="tab" data-filter="exit" type="button">清仓</button>
+            <button class="tab" data-filter="all" type="button">全部</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>公司</th>
+                <th>类型</th>
+                <th class="num">上季股数</th>
+                <th class="num">本季股数</th>
+                <th class="num">股数变化</th>
+                <th class="num">本季市值</th>
+                <th class="num">市值变化</th>
+              </tr>
+            </thead>
+            <tbody id="change-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="signals">
+        <div class="section-head">
+          <div>
+            <h3>下一步跟踪</h3>
+            <p>这些不是买卖建议，而是下一季度 13F 和公司基本面研究的优先级。</p>
+          </div>
+        </div>
+        <div class="signal-grid">
+          <article class="signal">
+            <span class="tag add">最强信号</span>
+            <strong>GOOGL / GOOG</strong>
+            <p>Alphabet 合计已经进入前十大。下一季度是否继续加仓，决定这是一次性建仓还是长期核心仓。</p>
+          </article>
+          <article class="signal">
+            <span class="tag add">新进仓位</span>
+            <strong>DAL</strong>
+            <p>Delta 是本季最大新进仓位。航空股波动和历史态度切换都要求后续谨慎验证。</p>
+          </article>
+          <article class="signal">
+            <span class="tag cut">能源再平衡</span>
+            <strong>CVX / OXY</strong>
+            <p>Chevron 大幅减仓，Occidental 不变。重点看能源敞口是否继续向 OXY 集中。</p>
+          </article>
+          <article class="signal">
+            <span class="tag cut">金融权重</span>
+            <strong>BAC</strong>
+            <p>Bank of America 继续小幅减仓。若持续发生，会改变金融板块在组合中的角色。</p>
+          </article>
+          <article class="signal">
+            <span class="tag keep">中型加仓</span>
+            <strong>NYT / LEN</strong>
+            <p>这两项不像传统超大核心仓，更可能反映投资团队的新偏好，适合单独跟踪。</p>
+          </article>
+        </div>
+      </section>
+
+      <p class="footer-note">数据来源：SEC Form 13F-HR 原始信息表，本页面按 issuer/class/CUSIP/put-call 聚合同一证券在不同 included managers 下的多行记录。13F 披露有时间滞后，页面仅用于研究和复盘。</p>
+    </main>
+  </div>
+
+  <script src="data_for_page.js"></script>
+  <script>
+    const palette = ["#19212b", "#117b5b", "#2764a8", "#9a6710", "#b33a3a", "#596a7a", "#4d7c6f", "#6e5d38", "#3c5f87", "#8b5550"];
+    const companyCnName = {
+      "ALLY FINL INC": "艾利金融",
+      "ALPHABET INC": "谷歌母公司",
+      "AMAZON COM INC": "亚马逊",
+      "AMERICAN EXPRESS CO": "美国运通",
+      "APPLE INC": "苹果",
+      "ATLANTA BRAVES HLDGS INC": "亚特兰大勇士控股",
+      "BANK AMERICA CORP": "美国银行",
+      "CAPITAL ONE FINL CORP": "第一资本金融",
+      "CHARTER COMMUNICATIONS INC N": "Charter 通信",
+      "CHEVRON CORPORATION": "雪佛龙",
+      "CHUBB LTD SWITZ": "安达保险",
+      "COCA COLA CO": "可口可乐",
+      "CONSTELLATION BRANDS INC": "星座品牌",
+      "DAVITA INC": "达维塔",
+      "DELTA AIR LINES INC": "达美航空",
+      "DIAGEO PLC": "帝亚吉欧",
+      "DOMINOS PIZZA INC": "达美乐披萨",
+      "HEICO CORP NEW": "海科",
+      "JEFFERIES FINANCIAL GROUP IN": "杰富瑞金融",
+      "KRAFT HEINZ CO": "卡夫亨氏",
+      "KROGER CO": "克罗格",
+      "LAMAR ADVERTISING CO NEW": "拉马尔广告",
+      "LENNAR CORP": "莱纳",
+      "LIBERTY LATIN AMERICA LTD": "Liberty 拉美",
+      "LIBERTY LIVE HOLDINGS INC": "Liberty Live 控股",
+      "LIBERTY MEDIA CORP DEL": "Liberty Media",
+      "LOUISIANA PAC CORP": "路易斯安那太平洋",
+      "MACYS INC": "梅西百货",
+      "MASTERCARD INCORPORATED": "万事达卡",
+      "MOODYS CORP": "穆迪",
+      "NEW YORK TIMES CO MTN BE": "纽约时报",
+      "NUCOR CORP": "纽柯钢铁",
+      "NVR INC": "NVR 住宅建筑",
+      "OCCIDENTAL PETE CORP": "西方石油",
+      "POOL CORP": "Pool 公司",
+      "SIRIUSXM HOLDINGS INC": "天狼星 XM",
+      "UNITEDHEALTH GROUP INC": "联合健康",
+      "VERISIGN INC": "威瑞信",
+      "VISA INC": "Visa",
+      "ALLEGION PLC": "安朗杰",
+      "AON PLC": "怡安"
+    };
+    const berkshireCashAndTbills = {
+      "2023 Q2": 147377000000,
+      "2023 Q3": 157241000000,
+      "2023 Q4": 167641000000,
+      "2024 Q1": 188993000000,
+      "2024 Q2": 276942000000,
+      "2024 Q3": 325212000000,
+      "2024 Q4": 289868000000,
+      "2025 Q1": 310789000000,
+      "2025 Q2": 344091000000,
+      "2025 Q3": 381673000000,
+      "2025 Q4": 333000000000,
+      "2026 Q1": 397400000000
+    };
+    let currentSnapshot = (typeof PERIOD_SNAPSHOTS !== "undefined" && PERIOD_SNAPSHOTS.length)
+      ? PERIOD_SNAPSHOTS[PERIOD_SNAPSHOTS.length - 1]
+      : { period: "2026 Q1", reportDate: "2026-03-31", filingDate: "2026-05-15", holdings: HOLDINGS, changes: CHANGES };
+    let currentFilter = "focus";
+
+    function currentHoldings() {
+      return currentSnapshot.holdings || [];
+    }
+
+    function currentChanges() {
+      return currentSnapshot.changes || [];
+    }
+
+    function currentTotalValue() {
+      return currentSnapshot.totalValue || currentHoldings().reduce((sum, item) => sum + item.value, 0);
+    }
+
+    function topWeight(count) {
+      const total = currentTotalValue();
+      return total ? currentHoldings().slice(0, count).reduce((sum, item) => sum + item.value, 0) / total : 0;
+    }
+
+    function formatMoney(value) {
+      const abs = Math.abs(value);
+      const sign = value < 0 ? "-" : "";
+      if (abs >= 1e9) return `${sign}$${(abs / 1e9).toFixed(2)}B`;
+      if (abs >= 1e6) return `${sign}$${(abs / 1e6).toFixed(2)}M`;
+      return `${sign}$${abs.toLocaleString("en-US")}`;
+    }
+
+    function formatShares(value) {
+      return value.toLocaleString("en-US");
+    }
+
+    function pct(value) {
+      return `${(value * 100).toFixed(1)}%`;
+    }
+
+    function cnName(name) {
+      return companyCnName[name] || "";
+    }
+
+    function displayName(name) {
+      if (name === "现金/空仓") return name;
+      const cn = cnName(name);
+      return cn ? `${name}（${cn}）` : name;
+    }
+
+    function trendSeriesName(series) {
+      return series.name || series.category || "其他";
+    }
+
+    function tipAttr(text) {
+      return String(text).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    function moneyYi(value) {
+      return `${(value / 1e8).toFixed(1)} 亿美元`;
+    }
+
+    function setupPeriodSelector() {
+      if (typeof PERIOD_SNAPSHOTS === "undefined") return;
+      const select = document.getElementById("period-select");
+      select.innerHTML = PERIOD_SNAPSHOTS.map((snapshot, index) => `
+        <option value="${index}">${snapshot.period} · 报告期 ${snapshot.reportDate}</option>
+      `).join("");
+      select.value = String(PERIOD_SNAPSHOTS.length - 1);
+      select.addEventListener("change", () => {
+        currentSnapshot = PERIOD_SNAPSHOTS[Number(select.value)];
+        renderSnapshot();
+        renderTrend(activeTrendMode());
+      });
+      renderPeriodMeta();
+    }
+
+    function renderPeriodMeta() {
+      document.getElementById("period-meta").textContent = `报告期 ${currentSnapshot.reportDate} · 提交日 ${currentSnapshot.filingDate}`;
+    }
+
+    function changeType(row) {
+      if (row.prev_shares === 0 && row.cur_shares > 0) return "新进";
+      if (row.cur_shares === 0 && row.prev_shares > 0) return "清仓";
+      if (row.delta_shares > 0) return "增仓";
+      if (row.delta_shares < 0) return "减仓";
+      return "不变";
+    }
+
+    function tagClass(type) {
+      return { "新进": "add", "增仓": "add", "减仓": "cut", "清仓": "exit", "不变": "keep" }[type];
+    }
+
+    function renderOverview() {
+      const holdings = currentHoldings();
+      const totalValue = currentTotalValue();
+      const top5Weight = topWeight(5);
+      const top10Weight = topWeight(10);
+      const items = [
+        ["13F 市值", formatMoney(totalValue), "聚合后最新信息表合计"],
+        ["持仓数量", `${holdings.length}`, "按证券口径聚合"],
+        ["前五大权重", pct(top5Weight), "Apple、AXP、KO、BAC、CVX"],
+        ["前十大权重", pct(top10Weight), "组合高度集中"]
+      ];
+
+      document.getElementById("overview").innerHTML = items.map(([label, value, note]) => `
+        <div class="metric">
+          <div class="label">${label}</div>
+          <div class="value">${value}</div>
+          <div class="note">${note}</div>
+        </div>
+      `).join("");
+    }
+
+    function renderDonut() {
+      const holdings = currentHoldings();
+      const totalValue = currentTotalValue();
+      const top10Weight = topWeight(10);
+      const top = holdings.slice(0, 10);
+      let cursor = 0;
+      const segments = top.map((item, index) => {
+        const start = cursor;
+        const deg = item.value / totalValue * 360;
+        cursor += deg;
+        return `${palette[index]} ${start}deg ${cursor}deg`;
+      });
+      segments.push(`#dce2e8 ${cursor}deg 360deg`);
+      document.getElementById("donut").style.background = `conic-gradient(${segments.join(", ")})`;
+      document.getElementById("top10-weight").textContent = pct(top10Weight);
+      document.getElementById("legend").innerHTML = top.map((item, index) => `
+        <div class="legend-row">
+          <span class="swatch" style="background:${palette[index]}"></span>
+          <span class="legend-name has-tip" data-tip="${tipAttr(displayName(item.issuer))}">${displayName(item.issuer)}</span>
+          <span class="legend-value">${pct(item.value / totalValue)}</span>
+        </div>
+      `).join("");
+    }
+
+    function renderBars() {
+      const holdings = currentHoldings();
+      const totalValue = currentTotalValue();
+      const max = holdings[0]?.value || 1;
+      document.getElementById("bars").innerHTML = holdings.slice(0, 15).map((item, index) => `
+        <div class="bar-row">
+          <div class="bar-name has-tip" data-tip="${tipAttr(displayName(item.issuer))}">${index + 1}. ${displayName(item.issuer)}</div>
+          <div class="bar-track" aria-label="${displayName(item.issuer)} 权重 ${pct(item.value / totalValue)}，市值 ${moneyYi(item.value)}">
+            <div class="bar-fill" style="width:${Math.max(2, item.value / max * 100)}%; background:${palette[index % palette.length]}"></div>
+          </div>
+          <div class="bar-value">${moneyYi(item.value)}</div>
+        </div>
+      `).join("");
+    }
+
+    function formatTrendValue(value, mode) {
+      if (mode === "weight") return `${(value * 100).toFixed(0)}%`;
+      return `${value.toFixed(0)}`;
+    }
+
+    function formatTrendPoint(point, mode) {
+      if (mode === "weight") return `${(point.weight * 100).toFixed(1)}%`;
+      return `${trendPointValue(point, "value").toFixed(1)} 亿美元`;
+    }
+
+    function trendPointValue(point, mode) {
+      if (mode === "weight") return point.weight || 0;
+      return Number.isFinite(point.valueBillion) ? point.valueBillion : (point.value || 0) / 1e8;
+    }
+
+    function trendTooltipHtml(series, point) {
+      const valueBillion = trendPointValue(point, "value");
+      const detail = series.isCash
+        ? "口径：现金/短期国债 ÷ (现金/短期国债 + 13F 市值)"
+        : Number.isFinite(point.shares)
+        ? `股数：${formatShares(point.shares)}`
+        : `证券数：${point.count || 0}`;
+      return `
+        <div xmlns="http://www.w3.org/1999/xhtml" class="trend-tooltip-box">
+          <strong>${displayName(trendSeriesName(series))}</strong>
+          <span>${point.period}</span>
+          <span>权重：${(point.weight * 100).toFixed(2)}%</span>
+          <span>市值：${valueBillion.toFixed(1)} 亿美元</span>
+          <span>${detail}</span>
+        </div>
+      `;
+    }
+
+    function trendTooltipSize(series) {
+      const nameLength = displayName(trendSeriesName(series)).length;
+      const width = series.isCash || nameLength > 18 ? 300 : 236;
+      return {
+        width,
+        height: series.isCash || nameLength > 24 ? 142 : 122
+      };
+    }
+
+    function niceMax(value, mode) {
+      if (mode === "weight") return Math.ceil(value * 100 / 5) * 5 / 100;
+      return Math.ceil(value / 100) * 100;
+    }
+
+    function shortPeriodLabel(period) {
+      return period.replace("20", "").replace(" Q", "Q");
+    }
+
+    function withCashSeries(data) {
+      if (!data || !Array.isArray(data.series) || !Array.isArray(data.periods) || data.series.some(series => series.name === "现金/空仓")) return data;
+      const cashPoints = data.periods.map(period => {
+        const cash = berkshireCashAndTbills[period.period] || 0;
+        const total13f = period.totalValue || 0;
+        const combined = cash + total13f;
+        return {
+          period: period.period,
+          reportDate: period.reportDate,
+          value: cash,
+          valueBillion: cash / 1e8,
+          weight: combined ? cash / combined : 0,
+          count: 1
+        };
+      });
+      return {
+        ...data,
+        series: [
+          ...data.series,
+          {
+            name: "现金/空仓",
+            key: "cash",
+            isCash: true,
+            points: cashPoints
+          }
+        ]
+      };
+    }
+
+    function activeTrendMode() {
+      return document.querySelector(".trend-mode.active")?.dataset.mode || "weight";
+    }
+
+    function renderBerkshireTrendNarrative(data) {
+      const target = document.getElementById("trend-narrative");
+      if (!target || !data || !Array.isArray(data.periods) || data.periods.length < 2) return;
+      let currentIndex = data.periods.findIndex(period => period.period === currentSnapshot.period);
+      if (currentIndex <= 0) currentIndex = data.periods.length - 1;
+      if (currentIndex <= 0) return;
+
+      const currentPeriod = data.periods[currentIndex].period;
+      const previousPeriod = data.periods[currentIndex - 1].period;
+      const rows = data.series.map(series => {
+        const current = series.points.find(point => point.period === currentPeriod);
+        const previous = series.points.find(point => point.period === previousPeriod);
+        if (!current || !previous || current.weight == null || previous.weight == null) return null;
+        return {
+          series,
+          current,
+          previous,
+          delta: current.weight - previous.weight,
+          valueDelta: (current.value || 0) - (previous.value || 0)
+        };
+      }).filter(Boolean);
+
+      if (!rows.length) return;
+      const nonCashRows = rows.filter(row => !row.series.isCash);
+      const sorted = [...rows].sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta));
+      const biggest = sorted[0];
+      const risers = rows.filter(row => row.delta > 0).sort((a, b) => b.delta - a.delta);
+      const fallers = rows.filter(row => row.delta < 0).sort((a, b) => a.delta - b.delta);
+      const coreWeight = nonCashRows.reduce((sum, row) => sum + (row.current.weight || 0), 0);
+      const biggestName = displayName(biggest.series.name);
+      const biggestMove = `${biggestName}${biggest.delta >= 0 ? "上升" : "下降"} ${Math.abs(biggest.delta * 100).toFixed(1)} 个百分点，市值变化 ${moneyYi(biggest.valueDelta)}`;
+      const riseText = risers.length
+        ? `上升项：${risers.slice(0, 2).map(row => `${displayName(row.series.name)} +${(row.delta * 100).toFixed(1)}pp`).join("、")}。`
+        : "没有明显上升项。";
+      const fallText = fallers.length
+        ? `下降项：${fallers.slice(0, 2).map(row => `${displayName(row.series.name)} ${(row.delta * 100).toFixed(1)}pp`).join("、")}。`
+        : "没有明显下降项。";
+      const cause = "这里同时展示 13F 证券和伯克希尔财报口径的现金/短债。核心持仓变化通常由实际买卖、季度末股价重估、以及现金留存节奏共同造成，不能只按 13F 市值变化理解为交易金额。";
+      const firstFaller = fallers.find(row => !row.series.isCash) || fallers[0] || biggest;
+      const firstRiser = risers.find(row => !row.series.isCash) || risers[0] || biggest;
+      const outlook = `下个 Q 重点看 ${displayName(firstFaller.series.name)} 的下降是否延续，以及 ${displayName(firstRiser.series.name)} 的上升是继续加仓、价格修复，还是现金/短债比例再度抬升。`;
+
+      target.innerHTML = `
+        <div class="narrative-card"><b>最近这个 Q 发生了什么</b><p>${currentPeriod} 相比 ${previousPeriod}，核心曲线里最大变化是 ${biggestMove}。${riseText} ${fallText}</p></div>
+        <div class="narrative-card"><b>背后的可能根因</b><p>${cause}</p></div>
+        <div class="narrative-card"><b>下个 Q 的观察点</b><p>${outlook} 当前核心已披露股票合计约 ${(coreWeight * 100).toFixed(1)}%，需要和完整变化表一起看。</p></div>
+      `;
+    }
+
+    function renderLineTrend(data, mode, chartId, legendId) {
+      data = legendId === "trend-legend" ? withCashSeries(data) : data;
+      if (!data) return;
+      const svg = document.getElementById(chartId);
+      const width = 1100;
+      const height = 430;
+      const pad = { top: 36, right: 24, bottom: 92, left: 58 };
+      const plotW = width - pad.left - pad.right;
+      const plotH = height - pad.top - pad.bottom;
+      const periods = data.periods || data.series?.[0]?.points || [];
+      if (!periods.length) return;
+      const maxRaw = Math.max(...data.series.flatMap(series => series.points.map(point => trendPointValue(point, mode))));
+      const maxY = niceMax(maxRaw, mode);
+      const ticks = [0, 0.25, 0.5, 0.75, 1].map(x => x * maxY);
+      const x = index => pad.left + (periods.length === 1 ? 0 : index / (periods.length - 1) * plotW);
+      const y = value => pad.top + plotH - (value / maxY) * plotH;
+
+      const grid = ticks.map(tick => `
+        <line class="trend-axis" x1="${pad.left}" y1="${y(tick)}" x2="${width - pad.right}" y2="${y(tick)}"></line>
+        <text class="trend-label" x="${pad.left - 24}" y="${y(tick) + 4}" text-anchor="end">${formatTrendValue(tick, mode)}</text>
+      `).join("");
+
+      const xLabels = periods.map((period, index) => `
+        <text class="trend-label" x="${x(index)}" y="${height - 48}" text-anchor="middle">${shortPeriodLabel(period.period)}</text>
+      `).join("");
+
+      const lines = data.series.map((series, seriesIndex) => {
+        const color = palette[seriesIndex % palette.length];
+        const dash = series.isCash ? `stroke-dasharray="8 6"` : "";
+        const coords = series.points.map((point, index) => {
+          const value = trendPointValue(point, mode);
+          return [x(index), y(value), point];
+        });
+        const path = coords.map(([cx, cy], index) => `${index === 0 ? "M" : "L"} ${cx.toFixed(1)} ${cy.toFixed(1)}`).join(" ");
+        const dots = coords.map(([cx, cy, point]) => {
+          const { width: tooltipW, height: tooltipH } = trendTooltipSize(series);
+          const tooltipX = cx > width - pad.right - tooltipW - 18 ? cx - tooltipW - 16 : cx + 14;
+          const tooltipY = Math.max(8, Math.min(height - tooltipH - 8, cy - tooltipH / 2));
+          return `
+          <g class="trend-point">
+            <circle class="trend-hit" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="14"></circle>
+            <circle class="trend-dot" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${series.isCash ? "5.2" : "4.5"}" fill="${color}"></circle>
+            <foreignObject class="trend-tooltip" x="${tooltipX.toFixed(1)}" y="${tooltipY.toFixed(1)}" width="${tooltipW}" height="${tooltipH}" opacity="0" visibility="hidden">
+              ${trendTooltipHtml(series, point)}
+            </foreignObject>
+          </g>
+        `;
+        }).join("");
+        return `<path class="trend-line" d="${path}" stroke="${color}" ${dash}></path>${dots}`;
+      }).join("");
+
+      svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+      svg.innerHTML = `
+        <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
+        ${grid}
+        <line class="trend-axis" x1="${pad.left}" y1="${pad.top + plotH}" x2="${width - pad.right}" y2="${pad.top + plotH}"></line>
+        ${xLabels}
+        ${lines}
+      `;
+
+      document.getElementById(legendId).innerHTML = data.series.map((series, index) => `
+        <span class="trend-legend-item has-tip" data-tip="${tipAttr(displayName(trendSeriesName(series)))}">
+          <span class="swatch" style="background:${palette[index % palette.length]}"></span>
+          ${displayName(trendSeriesName(series))}
+        </span>
+      `).join("");
+      if (legendId === "trend-legend") renderBerkshireTrendNarrative(data);
+    }
+
+    function renderTrend(mode = "weight") {
+      if (typeof TREND_DATA === "undefined") return;
+      renderLineTrend(TREND_DATA, mode, "trend-chart", "trend-legend");
+    }
+
+    function renderCategoryTrend(mode = "weight") {
+      if (typeof CATEGORY_TREND_DATA === "undefined") return;
+      renderLineTrend(CATEGORY_TREND_DATA, mode, "category-trend-chart", "category-trend-legend");
+    }
+
+    function rowsForFilter(filter) {
+      const changes = currentChanges();
+      if (filter === "all") return [...changes].sort((a, b) => Math.abs(b.delta_value) - Math.abs(a.delta_value));
+      if (filter === "add") return changes.filter(row => row.delta_shares > 0).sort((a, b) => b.cur_value - a.cur_value);
+      if (filter === "cut") return changes.filter(row => row.delta_shares < 0 && row.cur_shares > 0).sort((a, b) => Math.abs(b.delta_shares) - Math.abs(a.delta_shares));
+      if (filter === "exit") return changes.filter(row => row.cur_shares === 0 && row.prev_shares > 0).sort((a, b) => b.prev_value - a.prev_value);
+      return changes.filter(row => row.delta_shares !== 0).sort((a, b) => Math.abs(b.delta_value) - Math.abs(a.delta_value)).slice(0, 18);
+    }
+
+    function renderTable(filter = "focus") {
+      currentFilter = filter;
+      const rows = rowsForFilter(filter);
+      document.getElementById("change-body").innerHTML = rows.map(row => {
+        const type = changeType(row);
+        return `
+          <tr>
+            <td><strong class="has-tip" data-tip="${tipAttr(displayName(row.issuer))}">${displayName(row.issuer)}</strong><br><span style="color:var(--muted); font-size:12px;">${row.class} · ${row.cusip}</span></td>
+            <td><span class="tag ${tagClass(type)}">${type}</span></td>
+            <td class="num">${formatShares(row.prev_shares)}</td>
+            <td class="num">${formatShares(row.cur_shares)}</td>
+            <td class="num">${row.delta_shares > 0 ? "+" : ""}${formatShares(row.delta_shares)}</td>
+            <td class="num">${formatMoney(row.cur_value)}</td>
+            <td class="num">${row.delta_value > 0 ? "+" : ""}${formatMoney(row.delta_value)}</td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    function renderSnapshot() {
+      renderPeriodMeta();
+      renderOverview();
+      renderDonut();
+      renderBars();
+      renderTable(currentFilter);
+    }
+
+    document.querySelectorAll("[data-filter]").forEach(button => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll("[data-filter]").forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        renderTable(button.dataset.filter);
+      });
+    });
+
+    document.querySelectorAll(".trend-mode").forEach(button => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll(".trend-mode").forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        renderTrend(button.dataset.mode);
+      });
+    });
+
+    document.querySelectorAll(".category-mode").forEach(button => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll(".category-mode").forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        renderCategoryTrend(button.dataset.mode);
+      });
+    });
+
+    setupPeriodSelector();
+    renderSnapshot();
+    renderCategoryTrend();
+    renderTrend();
+  </script>
+</body>
+</html>
