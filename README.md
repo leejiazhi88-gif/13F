@@ -22,3 +22,4 @@ node work/check-index-syntax.js
 
 后续每次迭代完成后，把源码和 `outputs/` 一起提交并推送到 GitHub，确保另一台电脑可以直接拉取最新页面。
 
+更多跨电脑协作、验收地址和发布流程见 [`PROJECT_HANDOFF.md`](PROJECT_HANDOFF.md)。
