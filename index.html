@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Berkshire Hathaway 13F 研究 | 2026Q1</title>
+  <title>Berkshire Hathaway 13F 研究 | 最新报告期</title>
   <style>
     :root {
       --bg: #f7f8fa;
@@ -829,11 +829,11 @@
           <div>
             <div class="eyebrow"><span class="dot"></span> Berkshire Hathaway Inc. · Form 13F-HR</div>
             <h2 id="page-title">巴菲特持仓的季度快照</h2>
-            <p class="lead">基于 SEC 原始 13F 信息表聚合，展示伯克希尔 2026Q1 美股持仓结构、环比增减仓和下一季度需要跟踪的信号。13F 是延迟披露，不覆盖现金、债券、私有业务和非美上市资产。</p>
+            <p class="lead">基于 SEC 原始 13F 信息表聚合，展示伯克希尔最新报告期美股持仓结构、环比增减仓和下一季度需要跟踪的信号。13F 是延迟披露，不覆盖现金、债券、私有业务和非美上市资产。</p>
           </div>
           <div class="hero-actions">
             <a class="button" href="#changes">查看增减仓</a>
-            <a class="button secondary" href="berkshire_2026q1_holdings.csv">下载持仓 CSV</a>
+            <a class="button secondary" href="berkshire_latest_holdings.csv">下载持仓 CSV</a>
             <a class="button secondary" href="berkshire_13f_research_2026q1.md">研究稿</a>
           </div>
         </div>
@@ -846,7 +846,7 @@
             <h3>组合结构</h3>
             <p>按 13F 市值排序，前十大持仓占比极高，组合仍然是典型的集中型结构。</p>
           </div>
-          <a class="source-link" href="berkshire_2026q1_vs_2025q4_changes.csv">环比变化 CSV</a>
+          <a class="source-link" href="berkshire_latest_changes.csv">环比变化 CSV</a>
         </div>
         <div class="grid-2">
           <div class="panel">
@@ -1189,12 +1189,14 @@
     }
 
     function formatTrendPoint(point, mode) {
-      if (mode === "weight") return `${(point.weight * 100).toFixed(1)}%`;
-      return `${trendPointValue(point, "value").toFixed(1)} 亿美元`;
+      if (mode === "weight") return point.weight == null ? "-" : `${(point.weight * 100).toFixed(1)}%`;
+      const value = trendPointValue(point, "value");
+      return value == null ? "-" : `${value.toFixed(1)} 亿美元`;
     }
 
     function trendPointValue(point, mode) {
-      if (mode === "weight") return point.weight || 0;
+      if (mode === "weight") return point.weight == null ? null : point.weight;
+      if (point.value == null && point.valueBillion == null) return null;
       return Number.isFinite(point.valueBillion) ? point.valueBillion : (point.value || 0) / 1e8;
     }
 
@@ -1209,8 +1211,8 @@
         <div xmlns="http://www.w3.org/1999/xhtml" class="trend-tooltip-box">
           <strong>${displayName(trendSeriesName(series))}</strong>
           <span>${point.period}</span>
-          <span>权重：${(point.weight * 100).toFixed(2)}%</span>
-          <span>市值：${valueBillion.toFixed(1)} 亿美元</span>
+          <span>权重：${point.weight == null ? "未披露" : (point.weight * 100).toFixed(2) + "%"}</span>
+          <span>市值：${valueBillion == null ? "未披露" : valueBillion.toFixed(1) + " 亿美元"}</span>
           <span>${detail}</span>
         </div>
       `;
@@ -1226,6 +1228,7 @@
     }
 
     function niceMax(value, mode) {
+      if (!Number.isFinite(value) || value <= 0) return mode === "weight" ? 1 : 100;
       if (mode === "weight") return Math.ceil(value * 100 / 5) * 5 / 100;
       return Math.ceil(value / 100) * 100;
     }
@@ -1237,16 +1240,17 @@
     function withCashSeries(data) {
       if (!data || !Array.isArray(data.series) || !Array.isArray(data.periods) || data.series.some(series => series.name === "现金/空仓")) return data;
       const cashPoints = data.periods.map(period => {
-        const cash = berkshireCashAndTbills[period.period] || 0;
+        const cash = berkshireCashAndTbills[period.period];
+        const hasCash = Number.isFinite(cash);
         const total13f = period.totalValue || 0;
-        const combined = cash + total13f;
+        const combined = hasCash ? cash + total13f : 0;
         return {
           period: period.period,
           reportDate: period.reportDate,
-          value: cash,
-          valueBillion: cash / 1e8,
-          weight: combined ? cash / combined : 0,
-          count: 1
+          value: hasCash ? cash : null,
+          valueBillion: hasCash ? cash / 1e8 : null,
+          weight: combined ? cash / combined : null,
+          count: hasCash ? 1 : null
         };
       });
       return {
@@ -1327,7 +1331,8 @@
       const plotH = height - pad.top - pad.bottom;
       const periods = data.periods || data.series?.[0]?.points || [];
       if (!periods.length) return;
-      const maxRaw = Math.max(...data.series.flatMap(series => series.points.map(point => trendPointValue(point, mode))));
+      const values = data.series.flatMap(series => series.points.map(point => trendPointValue(point, mode))).filter(value => Number.isFinite(value));
+      const maxRaw = values.length ? Math.max(...values) : 0;
       const maxY = niceMax(maxRaw, mode);
       const ticks = [0, 0.25, 0.5, 0.75, 1].map(x => x * maxY);
       const x = index => pad.left + (periods.length === 1 ? 0 : index / (periods.length - 1) * plotW);
@@ -1347,10 +1352,21 @@
         const dash = series.isCash ? `stroke-dasharray="8 6"` : "";
         const coords = series.points.map((point, index) => {
           const value = trendPointValue(point, mode);
-          return [x(index), y(value), point];
+          return Number.isFinite(value) ? [x(index), y(value), point] : null;
         });
-        const path = coords.map(([cx, cy], index) => `${index === 0 ? "M" : "L"} ${cx.toFixed(1)} ${cy.toFixed(1)}`).join(" ");
-        const dots = coords.map(([cx, cy, point]) => {
+        const segments = [];
+        let segment = [];
+        coords.forEach(coord => {
+          if (coord) {
+            segment.push(coord);
+          } else if (segment.length) {
+            segments.push(segment);
+            segment = [];
+          }
+        });
+        if (segment.length) segments.push(segment);
+        const path = segments.map(items => items.map(([cx, cy], index) => `${index === 0 ? "M" : "L"} ${cx.toFixed(1)} ${cy.toFixed(1)}`).join(" ")).join(" ");
+        const dots = coords.filter(Boolean).map(([cx, cy, point]) => {
           const { width: tooltipW, height: tooltipH } = trendTooltipSize(series);
           const tooltipX = cx > width - pad.right - tooltipW - 18 ? cx - tooltipW - 16 : cx + 14;
           const tooltipY = Math.max(8, Math.min(height - tooltipH - 8, cy - tooltipH / 2));

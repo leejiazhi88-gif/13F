@@ -43,10 +43,9 @@ def fetch_bytes(url):
 def submissions_for(cik):
     padded = cik.zfill(10)
     path = DATA_DIR / f"CIK{padded}.json"
-    if not path.exists():
-        data = fetch_json(f"https://data.sec.gov/submissions/CIK{padded}.json")
-        path.write_text(json.dumps(data, indent=2))
-    return json.loads(path.read_text())
+    data = fetch_json(f"https://data.sec.gov/submissions/CIK{padded}.json")
+    path.write_text(json.dumps(data, indent=2))
+    return data
 
 
 def load_13f_filings(cik):
@@ -56,7 +55,7 @@ def load_13f_filings(cik):
     seen_dates = set()
     for idx, form in enumerate(recent["form"]):
         report_date = recent["reportDate"][idx]
-        if "13F" not in form or "/A" in form or report_date < START_DATE:
+        if form != "13F-HR" or report_date < START_DATE:
             continue
         if report_date in seen_dates:
             continue

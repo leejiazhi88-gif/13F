@@ -3,6 +3,7 @@ import csv
 import html
 import json
 import re
+import subprocess
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -65,6 +66,19 @@ def short_period(period):
     return f"{year[2:]}{quarter}"
 
 
+def fetch_bytes(url):
+    result = subprocess.run(
+        ["curl", "-L", "-A", USER_AGENT, "--retry", "2", "--retry-delay", "1", url],
+        check=True,
+        capture_output=True,
+    )
+    return result.stdout
+
+
+def fetch_json(url):
+    return json.loads(fetch_bytes(url).decode("utf-8"))
+
+
 def load_13f_filings():
     data = json.loads(SUBMISSIONS.read_text())
     recent = data["filings"]["recent"]
@@ -72,7 +86,7 @@ def load_13f_filings():
     seen_dates = set()
     for idx, form in enumerate(recent["form"]):
         report_date = recent["reportDate"][idx]
-        if "13F" not in form or "/A" in form or report_date < START_DATE:
+        if form != "13F-HR" or report_date < START_DATE:
             continue
         if report_date in seen_dates:
             continue
@@ -88,6 +102,11 @@ def load_13f_filings():
     return sorted(filings, key=lambda item: item["reportDate"])
 
 
+def refresh_submissions():
+    url = f"https://data.sec.gov/submissions/CIK{CIK.zfill(10)}.json"
+    SUBMISSIONS.write_text(fetch_bytes(url).decode("utf-8"))
+
+
 def local_xml_path(filing):
     pattern = f"berkshire_{filing['reportDate']}_{filing['accessionCompact']}_13f.xml"
     return ROOT / pattern
@@ -99,19 +118,20 @@ def download_if_missing(filing):
         return path
     accession = filing["accessionCompact"]
     index_url = f"https://www.sec.gov/Archives/edgar/data/{CIK}/{accession}/index.json"
-    req = urllib.request.Request(index_url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        index = json.loads(resp.read().decode("utf-8"))
+    index = fetch_json(index_url)
     names = [item["name"] for item in index["directory"]["item"]]
     xml_name = next((name for name in names if name.lower() == "form13finfotable.xml"), None)
     if not xml_name:
         xml_name = next((name for name in names if "infotable" in name.lower() and name.lower().endswith(".xml")), None)
     if not xml_name:
+        xml_name = next((
+            name for name in names
+            if name.lower().endswith(".xml") and "primary" not in name.lower() and "doc" not in name.lower()
+        ), None)
+    if not xml_name:
         raise RuntimeError(f"No information table XML for {filing['reportDate']} {filing['accession']}")
     xml_url = f"https://www.sec.gov/Archives/edgar/data/{CIK}/{accession}/{xml_name}"
-    req = urllib.request.Request(xml_url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        path.write_bytes(resp.read())
+    path.write_bytes(fetch_bytes(xml_url))
     (ROOT / f"sec_index_{filing['reportDate']}_{accession}.json").write_text(json.dumps(index, indent=2))
     return path
 
@@ -304,16 +324,32 @@ def build_trend_data(snapshots):
     return {"periods": periods, "series": series}
 
 
+def period_slug(period):
+    return period.lower().replace(" ", "")
+
+
 def write_csvs(latest_snapshot, previous_snapshot):
-    with (ROOT / "berkshire_2026q1_holdings.csv").open("w", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=["issuer", "class", "cusip", "put_call", "value", "shares", "lines"])
-        writer.writeheader()
-        writer.writerows(latest_snapshot["holdings"])
-    with (ROOT / "berkshire_2026q1_vs_2025q4_changes.csv").open("w", newline="") as fh:
-        fieldnames = ["issuer", "class", "cusip", "put_call", "prev_shares", "cur_shares", "delta_shares", "prev_value", "cur_value", "delta_value"]
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(latest_snapshot["changes"])
+    latest_slug = period_slug(latest_snapshot["period"])
+    previous_slug = period_slug(previous_snapshot["period"])
+    holdings_paths = [
+        ROOT / "berkshire_latest_holdings.csv",
+        ROOT / f"berkshire_{latest_slug}_holdings.csv",
+    ]
+    changes_paths = [
+        ROOT / "berkshire_latest_changes.csv",
+        ROOT / f"berkshire_{latest_slug}_vs_{previous_slug}_changes.csv",
+    ]
+    for path in holdings_paths:
+        with path.open("w", newline="") as fh:
+            writer = csv.DictWriter(fh, fieldnames=["issuer", "class", "cusip", "put_call", "value", "shares", "lines"])
+            writer.writeheader()
+            writer.writerows(latest_snapshot["holdings"])
+    for path in changes_paths:
+        with path.open("w", newline="") as fh:
+            fieldnames = ["issuer", "class", "cusip", "put_call", "prev_shares", "cur_shares", "delta_shares", "prev_value", "cur_value", "delta_value"]
+            writer = csv.DictWriter(fh, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(latest_snapshot["changes"])
 
 
 def render_js(snapshots):
@@ -336,6 +372,7 @@ def replace_embedded_data(html_text, data_js):
 
 
 def main():
+    refresh_submissions()
     filings = load_13f_filings()
     snapshots = []
     previous = None
