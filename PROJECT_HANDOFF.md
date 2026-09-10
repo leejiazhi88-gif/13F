@@ -18,7 +18,7 @@
 - `outputs/berkshire_13f_single_file.html`：Berkshire/巴菲特输出页。
 - `outputs/investor_*.html`：各投资人单页输出。
 - `work/`：数据处理、页面生成、语法检查脚本。
-- `investor_13f_data/`：李录、阿克曼、TCI、Baupost 等 13F 原始数据。
+- `investor_13f_data/`：SEC 原始数据的本地重建缓存。仓库继续跟踪原有四家缓存；其余经理的原始附件不提交，运行生成脚本会自动重新下载。
 
 ## 每次迭代后的交付格式
 
@@ -110,7 +110,12 @@ curl -I -L --max-time 15 "https://leejiazhi88-gif.github.io/13F/outputs/investor
 
 ## 当前已知状态
 
-- `main` 初始同步提交：`355feb5 Initial 13F project sync`
-- `gh-pages` 初始发布提交：`d2ce7d5 Publish static 13F pages`
-- 线上页已经成功返回过 `HTTP/2 200`
-
+- 总览覆盖 20 位经理，当前运行时状态为 `20/20` 已接入。
+- 19 位非 Berkshire 经理均有统一详情页：季度下拉、核心持仓趋势、前十大、完整持仓、季度变动和季度解读。
+- Pershing Square 的 2026 Q2 为 `13F-NT`，没有本主体完整信息表，页面显示最后可直接解析的 2026 Q1。
+- Scion 当前最后完整披露期为 2025 Q3，页面按真实最后披露期展示。
+- Trian 的 2023 Q1 SEC 归档缺少信息表附件；该季度留空，并重置下一季度的变动比较基线。
+- 13F 不披露现金；页面中的“其他13F持仓”不能解释为现金或空仓。
+- 文艺复兴科技和 D. E. Shaw 的历史季度保留趋势与前十大摘要，最新季度保留完整明细，以控制单文件体积。
+- 数据生成入口：`python3 work/build_investor_history.py` 和 `python3 work/build_full_investor_pages.py`。
+- 线上页已成功返回过 `HTTP/2 200`；发布提交与源码提交以 `git log -1` 为准。

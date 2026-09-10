@@ -5,3 +5,15 @@ node_modules/
 __pycache__/
 .env
 .env.*
+
+# SEC downloads are a local rebuild cache. Keep the four legacy tracked
+# datasets updateable, but do not add newly downloaded manager archives.
+investor_13f_data/*
+!investor_13f_data/himalaya/
+!investor_13f_data/himalaya/**
+!investor_13f_data/pershing/
+!investor_13f_data/pershing/**
+!investor_13f_data/tci/
+!investor_13f_data/tci/**
+!investor_13f_data/baupost/
+!investor_13f_data/baupost/**

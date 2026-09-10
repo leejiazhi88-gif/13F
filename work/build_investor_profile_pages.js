@@ -442,7 +442,12 @@ function pageHtml(profile) {
 }
 
 let written = [];
-const fullProfileKeys = new Set(["himalaya", "pershing", "tci", "baupost"]);
+const fullProfileKeys = new Set([
+  "himalaya", "pershing", "tci", "baupost",
+  "duquesne", "appaloosa", "third-point", "trian", "icahn", "scion",
+  "coatue", "tiger-global", "viking", "lone-pine", "altimeter", "hhlr", "aspex",
+  "renaissance", "de-shaw",
+]);
 for (const manager of managers) {
   if (manager.localData === "berkshire") continue;
   if (manager.historyKey && fullProfileKeys.has(manager.historyKey)) continue;

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import json
+import sys
 from pathlib import Path
 
 from build_investor_history import (
@@ -16,7 +17,12 @@ from build_berkshire_data import ROOT, build_changes, period_from_date
 
 
 OUT = ROOT / "outputs"
-FULL_KEYS = ["himalaya", "pershing", "tci", "baupost"]
+FULL_KEYS = [
+    "himalaya", "pershing", "tci", "baupost",
+    "duquesne", "appaloosa", "third-point", "trian", "icahn", "scion",
+    "coatue", "tiger-global", "viking", "lone-pine", "altimeter", "hhlr", "aspex",
+    "renaissance", "de-shaw",
+]
 DISPLAY = {
     "himalaya": {
         "zh": "李录",
@@ -54,6 +60,52 @@ DISPLAY = {
         "focus": ["价值股", "特殊机会", "现金替代", "周期"],
         "note": "仓位变化往往比单季持仓本身更有信息量。",
     },
+    "duquesne": {
+        "zh": "斯坦利·德鲁肯米勒", "en": "Stanley Druckenmiller",
+        "firm": "Duquesne Family Office", "tag": "宏观交易",
+        "style": "宏观主题、成长股、机会型集中配置",
+        "focus": ["AI", "半导体", "能源", "利率敏感资产"],
+        "note": "适合观察宏观方向与成长股风险偏好。",
+    },
+    "appaloosa": {
+        "zh": "大卫·泰珀", "en": "David Tepper", "firm": "Appaloosa LP",
+        "tag": "宏观机会", "style": "宏观机会、周期股、科技股、中概股",
+        "focus": ["科技", "中概", "金融", "周期"],
+        "note": "仓位变化常带有鲜明的宏观判断。",
+    },
+    "third-point": {
+        "zh": "丹·勒布", "en": "Dan Loeb", "firm": "Third Point LLC",
+        "tag": "事件驱动", "style": "事件驱动、公司治理、并购重组",
+        "focus": ["重组", "并购", "科技", "消费"],
+        "note": "适合跟踪治理事件、重组和主动干预。",
+    },
+    "trian": {
+        "zh": "尼尔森·佩尔茨", "en": "Nelson Peltz", "firm": "Trian Fund Management",
+        "tag": "激进治理", "style": "激进投资、公司治理、消费龙头",
+        "focus": ["消费", "工业", "治理改善", "利润率"],
+        "note": "13F 要配合公开信、董事会席位和代理权争夺一起看。",
+    },
+    "icahn": {
+        "zh": "卡尔·伊坎", "en": "Carl Icahn", "firm": "Icahn Capital",
+        "tag": "控制权", "style": "激进投资、控制权、特殊机会",
+        "focus": ["能源", "工业", "困境资产", "治理"],
+        "note": "除 13F 外，还要结合 13D/13G 看控制权动作。",
+    },
+    "scion": {
+        "zh": "迈克尔·伯里", "en": "Michael Burry", "firm": "Scion Asset Management",
+        "tag": "逆向警报", "style": "逆向、事件驱动、主题切换快",
+        "focus": ["逆向", "周期", "消费", "尾部风险"],
+        "note": "适合作为警报型观察对象，不适合按长期持仓逻辑理解；当前以 SEC 最后公开申报期为准。",
+    },
+    "coatue": {"zh": "菲利普·拉丰", "en": "Philippe Laffont", "firm": "Coatue Management", "tag": "科技成长", "style": "科技成长、互联网、AI 基础设施", "focus": ["AI", "软件", "半导体", "平台公司"], "note": "适合观察科技成长股的主流机构偏好。"},
+    "tiger-global": {"zh": "蔡斯·科尔曼", "en": "Chase Coleman", "firm": "Tiger Global Management", "tag": "成长风险偏好", "style": "科技成长、互联网、全球成长股", "focus": ["互联网", "软件", "电商", "中概"], "note": "波动大，但能看成长股风险偏好的转折。"},
+    "viking": {"zh": "安德烈亚斯·哈尔沃森", "en": "Andreas Halvorsen", "firm": "Viking Global Investors", "tag": "成长质量", "style": "成长、质量、长短仓体系", "focus": ["医疗", "科技", "金融", "消费"], "note": "适合与 Tiger、Coatue、Lone Pine 横向比较。"},
+    "lone-pine": {"zh": "斯蒂芬·曼德尔", "en": "Stephen Mandel", "firm": "Lone Pine Capital", "tag": "成长质量", "style": "成长股、消费、软件和互联网", "focus": ["消费", "软件", "互联网", "医疗"], "note": "典型 Tiger Cub，适合观察优质成长股换仓。"},
+    "altimeter": {"zh": "布拉德·格斯特纳", "en": "Brad Gerstner", "firm": "Altimeter Capital", "tag": "科技平台", "style": "科技平台、软件、航空与旅游周期", "focus": ["AI", "云", "平台公司", "旅游"], "note": "持仓经常带有科技平台和宏观复苏双重线索。"},
+    "hhlr": {"zh": "高瓴 / HHLR", "en": "Hillhouse / HHLR", "firm": "HHLR Advisors", "tag": "中国成长", "style": "成长、医疗、科技、中概股", "focus": ["中概", "医疗", "科技", "消费"], "note": "高瓴二级市场相关主体，适合观察中概和全球成长配置。"},
+    "aspex": {"zh": "Aspex", "en": "Aspex Management HK", "firm": "Aspex Management (HK)", "tag": "亚洲成长", "style": "亚洲成长、互联网、半导体、金融科技", "focus": ["亚洲科技", "半导体", "互联网", "金融科技"], "note": "香港背景，适合补充泛亚洲成长股视角。"},
+    "renaissance": {"zh": "文艺复兴科技", "en": "Renaissance Technologies", "firm": "Renaissance Technologies", "tag": "量化因子", "style": "量化、多股票组合、因子暴露", "focus": ["量化", "因子", "分散持仓", "统计套利"], "note": "适合看组合拥挤度和因子，不适合单股叙事。", "latestDetailOnly": True},
+    "de-shaw": {"zh": "D. E. Shaw", "en": "D. E. Shaw", "firm": "D. E. Shaw & Co.", "tag": "多策略量化", "style": "量化、多策略、套利和股票组合", "focus": ["量化", "多策略", "ETF", "期权"], "note": "13F 金额大、持仓多，适合做聚合统计而不是单卡解读。", "latestDetailOnly": True},
 }
 
 
@@ -93,8 +145,15 @@ def build_snapshots(key, meta):
     previous = None
     snapshots = []
     for filing in load_13f_filings(meta["cik"]):
-        path = download_info_table(key, meta["cik"], filing)
-        holdings = parse_table(path)
+        try:
+            path = download_info_table(key, meta["cik"], filing)
+        except RuntimeError as exc:
+            if not str(exc).startswith("No info table:"):
+                raise
+            print(f"warning: {exc}; skipping quarter and resetting change baseline", file=sys.stderr)
+            previous = None
+            continue
+        holdings = parse_table(path, filing["reportDate"])
         total = sum(row["value"] for row in holdings)
         period = period_from_date(filing["reportDate"])
         top10 = sum(row["value"] for row in holdings[:10]) / total * 100 if total else 0
@@ -140,9 +199,16 @@ def render_page(key, meta, snapshots):
         }
         for snap in snapshots
     ]
+    page_snapshots = snapshots
+    if profile.get("latestDetailOnly"):
+        page_snapshots = [
+            {**snapshot, "holdings": [], "changes": []}
+            if index < len(snapshots) - 1 else snapshot
+            for index, snapshot in enumerate(snapshots)
+        ]
     data = {
         "profile": profile,
-        "snapshots": snapshots,
+        "snapshots": page_snapshots,
         "coreTrend": build_core_trend(trend_source),
     }
     payload = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
@@ -210,7 +276,7 @@ def render_page(key, meta, snapshots):
     function renderMetrics() {{ const s=snap(); document.getElementById("metrics").innerHTML=[["13F 市值",amount(s.totalValue)],["持仓数量",String(s.holdings.length)],["前十大集中度",s.top10.toFixed(1)+"%"],["提交日",s.filingDate]].map(([k,v])=>`<div class="metric"><span>${{k}}</span><strong>${{v}}</strong></div>`).join(""); }}
     function renderFacts() {{ const s=snap(); document.getElementById("facts").innerHTML=`<div style="display:grid;gap:11px;color:var(--muted);font-size:14px;line-height:1.55"><div><b style="color:var(--text)">申报主体：</b>${{DATA.profile.firm}}</div><div><b style="color:var(--text)">报告期：</b>${{s.reportDate}}</div><div><b style="color:var(--text)">提交日：</b>${{s.filingDate}}</div><div><b style="color:var(--text)">现金口径：</b>13F 不披露现金/短债；虚线“其他13F持仓”只是未进入前 6 大核心线的已披露证券。</div></div>`; }}
     function renderBars() {{ const s=snap(); const max=s.top[0]?.value || 1; document.getElementById("bar-caption").textContent=s.period+" · 前十大"; document.getElementById("bars").innerHTML=s.top.slice(0,10).map((row,index)=>`<div class="bar-row"><div class="bar-name" title="${{issuerName(row.issuer)}}">${{index+1}}. ${{issuerName(row.issuer)}}</div><div class="bar-track"><div class="bar-fill" style="width:${{Math.max(2,row.value/max*100)}}%;background:${{colors[index%colors.length]}}"></div></div><div class="bar-value">${{pct(row.weight)}}</div></div>`).join(""); }}
-    function renderHoldings() {{ const s=snap(); document.getElementById("holdings-body").innerHTML=s.holdings.map(row=>`<tr><td><strong title="${{issuerName(row.issuer)}}">${{issuerName(row.issuer)}}</strong></td><td>${{row.class}}<br><span style="color:var(--muted);font-size:12px">${{row.cusip}}</span></td><td class="num">${{amount(row.value)}}</td><td class="num">${{pct(row.value/s.totalValue)}}</td><td class="num">${{shares(row.shares)}}</td></tr>`).join(""); }}
+    function renderHoldings() {{ const s=snap(); document.getElementById("holdings-body").innerHTML=s.holdings.length?s.holdings.map(row=>`<tr><td><strong title="${{issuerName(row.issuer)}}">${{issuerName(row.issuer)}}</strong></td><td>${{row.class}}<br><span style="color:var(--muted);font-size:12px">${{row.cusip}}</span></td><td class="num">${{amount(row.value)}}</td><td class="num">${{pct(row.value/s.totalValue)}}</td><td class="num">${{shares(row.shares)}}</td></tr>`).join(""):`<tr><td colspan="5">该量化机构历史季度保留趋势和前十大摘要；完整证券明细聚焦最新报告期，以控制单页体积。</td></tr>`; }}
     function filteredChanges() {{ const rows=[...snap().changes]; if(activeFilter==="all") return rows.sort((a,b)=>Math.abs(b.delta_value)-Math.abs(a.delta_value)); if(activeFilter==="add") return rows.filter(r=>r.delta_shares>0).sort((a,b)=>b.cur_value-a.cur_value); if(activeFilter==="cut") return rows.filter(r=>r.delta_shares<0&&r.cur_shares>0).sort((a,b)=>Math.abs(b.delta_shares)-Math.abs(a.delta_shares)); if(activeFilter==="exit") return rows.filter(r=>r.cur_shares===0&&r.prev_shares>0).sort((a,b)=>b.prev_value-a.prev_value); return rows.filter(r=>r.delta_shares!==0).sort((a,b)=>Math.abs(b.delta_value)-Math.abs(a.delta_value)).slice(0,18); }}
     function renderChanges() {{ document.getElementById("changes-body").innerHTML=filteredChanges().map(row=>{{ const t=type(row); return `<tr><td><strong title="${{issuerName(row.issuer)}}">${{issuerName(row.issuer)}}</strong><br><span style="color:var(--muted);font-size:12px">${{row.class}} · ${{row.cusip}}</span></td><td><span class="change-tag ${{typeClass(t)}}">${{t}}</span></td><td class="num">${{shares(row.prev_shares)}}</td><td class="num">${{shares(row.cur_shares)}}</td><td class="num">${{row.delta_shares>0?"+":""}}${{shares(row.delta_shares)}}</td><td class="num">${{amount(row.cur_value)}}</td><td class="num">${{row.delta_value>0?"+":""}}${{amount(row.delta_value)}}</td></tr>`; }}).join(""); }}
     function pathFor(points) {{ let segments=[],cur=[]; points.forEach(p=>{{ if(p.value==null){{ if(cur.length)segments.push(cur); cur=[]; }} else cur.push(p); }}); if(cur.length)segments.push(cur); return segments.map(seg=>seg.map((p,i)=>`${{i?"L":"M"}} ${{p.x}} ${{p.y}}`).join(" ")).join(" "); }}

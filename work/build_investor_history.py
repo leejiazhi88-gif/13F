@@ -24,6 +24,21 @@ MANAGERS = {
     "pershing": {"cik": "1336528", "name": "Pershing Square"},
     "tci": {"cik": "1647251", "name": "TCI Fund Management"},
     "baupost": {"cik": "1061768", "name": "Baupost Group"},
+    "duquesne": {"cik": "1536411", "name": "Duquesne Family Office"},
+    "appaloosa": {"cik": "1656456", "name": "Appaloosa LP"},
+    "third-point": {"cik": "1040273", "name": "Third Point LLC"},
+    "trian": {"cik": "1345471", "name": "Trian Fund Management"},
+    "icahn": {"cik": "921669", "name": "Carl C. Icahn"},
+    "scion": {"cik": "1649339", "name": "Scion Asset Management"},
+    "coatue": {"cik": "1135730", "name": "Coatue Management"},
+    "tiger-global": {"cik": "1167483", "name": "Tiger Global Management"},
+    "viking": {"cik": "1103804", "name": "Viking Global Investors"},
+    "lone-pine": {"cik": "1061165", "name": "Lone Pine Capital"},
+    "altimeter": {"cik": "1541617", "name": "Altimeter Capital Management"},
+    "hhlr": {"cik": "1762304", "name": "HHLR Advisors"},
+    "aspex": {"cik": "1768375", "name": "Aspex Management (HK)"},
+    "renaissance": {"cik": "1037389", "name": "Renaissance Technologies"},
+    "de-shaw": {"cik": "1009207", "name": "D. E. Shaw & Co."},
 }
 
 
@@ -108,11 +123,11 @@ def download_info_table(manager_key, cik, filing):
     return table_path
 
 
-def parse_table(path):
+def parse_table(path, report_date):
     text = path.read_text(errors="ignore")
     if re.search(r"<(?:[\w.-]+:)?infoTable\b", text, re.I):
         return parse_structured_xml(text)
-    return normalize_values(parse_html_table(text))
+    return parse_html_table(text)
 
 
 def ticker_guess(row):
@@ -199,8 +214,15 @@ def build_manager_history(manager_key, meta):
     snapshots = []
     previous = None
     for filing in filings:
-        path = download_info_table(manager_key, meta["cik"], filing)
-        holdings = parse_table(path)
+        try:
+            path = download_info_table(manager_key, meta["cik"], filing)
+        except RuntimeError as exc:
+            if not str(exc).startswith("No info table:"):
+                raise
+            print(f"warning: {exc}; skipping quarter and resetting change baseline", file=sys.stderr)
+            previous = None
+            continue
+        holdings = parse_table(path, filing["reportDate"])
         snapshot = {
             "period": period_from_date(filing["reportDate"]),
             "reportDate": filing["reportDate"],

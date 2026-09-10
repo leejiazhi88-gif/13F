@@ -9,11 +9,15 @@
 - `outputs/investor_*.html`：各投资人单独页面。
 - `investors.html`、`index.html`：当前主要源码页面。
 - `work/`：数据构建、页面生成和语法检查脚本。
-- `investor_13f_data/`：已拉取的投资人 13F 原始数据。
+- `investor_13f_data/`：SEC 原始数据的本地重建缓存；新增经理的大体积附件默认不提交。
+
+当前总览覆盖 20 位经理，19 位非 Berkshire 经理均已接入 SEC 历史数据和统一详情页。
 
 ## 常用检查
 
 ```bash
+python3 work/build_investor_history.py
+python3 work/build_full_investor_pages.py
 node work/check-investors-syntax.js
 node work/check-index-syntax.js
 ```

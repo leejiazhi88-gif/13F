@@ -3,6 +3,7 @@ import csv
 import html
 import json
 import re
+import statistics
 import subprocess
 import sys
 import urllib.request
@@ -136,7 +137,7 @@ def download_if_missing(filing):
     return path
 
 
-def parse_xml(path):
+def parse_xml(path, report_date=None):
     text = path.read_text(errors="ignore")
     if re.search(r"<(?:[\w.-]+:)?infoTable\b", text, re.I):
         return parse_structured_xml(text)
@@ -148,7 +149,7 @@ def tag_text(block, tag):
     return html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip() if match else ""
 
 
-def parse_structured_xml(text):
+def parse_structured_xml(text, values_in_dollars=None):
     def local_name(tag):
         return tag.rsplit("}", 1)[-1].split(":", 1)[-1]
 
@@ -177,7 +178,7 @@ def parse_structured_xml(text):
                 "shares": clean_number(first_text(node, "sshPrnamt")),
                 "lines": first_text(node, "otherManager"),
             })
-        return normalize_values(rows)
+        return normalize_values(rows, values_in_dollars)
 
     blocks = re.findall(r"<(?:[\w.-]+:)?infoTable\b[^>]*>(.*?)</(?:[\w.-]+:)?infoTable>", text, re.I | re.S)
     for block in blocks:
@@ -190,10 +191,10 @@ def parse_structured_xml(text):
             "shares": clean_number(tag_text(block, "sshPrnamt")),
             "lines": tag_text(block, "otherManager"),
         })
-    return normalize_values(rows)
+    return normalize_values(rows, values_in_dollars)
 
 
-def parse_html_table(text):
+def parse_html_table(text, values_in_dollars=None):
     parser = TableParser()
     parser.feed(text)
     rows = []
@@ -213,10 +214,10 @@ def parse_html_table(text):
             "shares": clean_number(cells[5]),
             "lines": cells[9] if len(cells) > 9 else "",
         })
-    return normalize_values(rows)
+    return normalize_values(rows, values_in_dollars)
 
 
-def normalize_values(rows):
+def normalize_values(rows, values_in_dollars=None):
     grouped = {}
     for row in rows:
         key = (row["cusip"], row["put_call"])
@@ -233,7 +234,14 @@ def normalize_values(rows):
         row["lines"] = ",".join(line_refs)
         rows.append(row)
     total = sum(row["value"] for row in rows)
-    if total and total < 1_000_000_000:
+    if values_in_dollars is None:
+        # SEC's transition from values reported in thousands to actual dollars
+        # was not uniform across filers. The raw value/share ratio is an implied
+        # share price in the new format and one-thousandth of it in the old one.
+        ratios = [row["value"] / row["shares"] for row in rows if row["value"] > 0 and row["shares"] > 0]
+        values_in_dollars = bool(ratios and statistics.median(ratios) >= 1)
+    needs_thousands_conversion = not values_in_dollars
+    if total and needs_thousands_conversion:
         for row in rows:
             row["value"] *= 1000
     return sorted(rows, key=lambda row: row["value"], reverse=True)
@@ -378,7 +386,7 @@ def main():
     previous = None
     for filing in filings:
         path = download_if_missing(filing)
-        holdings = parse_xml(path)
+        holdings = parse_xml(path, filing["reportDate"])
         total_value = sum(row["value"] for row in holdings)
         snapshot = {
             "period": period_from_date(filing["reportDate"]),
